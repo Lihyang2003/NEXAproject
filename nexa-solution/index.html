@@ -720,14 +720,14 @@ ul{margin:0;padding:0;list-style:none}
       <div class="mega-s">
         <div class="col"><p class="lb" style="--i:0">GIẢI PHÁP THEO NGÀNH</p></div>
         <div class="col"><a class="sol" href="#trien-lam" style="--c:var(--or);--i:1"><b>Sự kiện triển lãm</b><p>Đồng hành cùng đơn vị tổ chức và doanh nghiệp tham gia triển lãm.</p></a></div>
-        <div class="col"><div class="sol" style="--c:var(--blue);--i:2"><a href="#b2b"><b>Doanh nghiệp B2B</b><p>Nâng cấp thương hiệu, kết nối đối tác, mở rộng thị trường.</p></a>
-          <div class="chips-m"><a href="#b2b-pin" data-step="0">Build</a><a href="#b2b-pin" data-step="1">Reach</a><a href="#b2b-pin" data-step="2">Grow</a></div></div></div>
+        <div class="col"><div class="sol" style="--c:var(--blue);--i:2"><a href="../nexa-b2b/"><b>Doanh nghiệp B2B</b><p>Nâng cấp thương hiệu, kết nối đối tác, mở rộng thị trường.</p></a>
+          <div class="chips-m"><a href="../nexa-b2b/#sol-1">Build</a><a href="../nexa-b2b/#sol-2">Reach</a><a href="../nexa-b2b/#sol-3">Grow</a></div></div></div>
       </div>
     </div>
   </div>
 </header>
 <nav class="mnav" id="mnav" aria-label="Menu di động">
-  <a href="#nang-luc">Dịch vụ</a><a href="#trien-lam">Giải pháp · Sự kiện triển lãm</a><a href="#b2b">Giải pháp · Doanh nghiệp B2B</a><a href="#quy-trinh">Quy trình</a><a href="#du-an">Dự án</a><a href="#ve-nexa">Về NEXA</a>
+  <a href="#nang-luc">Dịch vụ</a><a href="#trien-lam">Giải pháp · Sự kiện triển lãm</a><a href="../nexa-b2b/">Giải pháp · Doanh nghiệp B2B</a><a href="#quy-trinh">Quy trình</a><a href="#du-an">Dự án</a><a href="#ve-nexa">Về NEXA</a>
   <a class="btn" href="#lien-he">Đặt lịch tư vấn <span class="ar"><svg class="ic"><use href="#i-arrow"/></svg><svg class="ic"><use href="#i-arrow"/></svg></span></a>
 </nav>
 <div class="pal" id="pal" aria-hidden="true">
@@ -989,7 +989,7 @@ ul{margin:0;padding:0;list-style:none}
       <div><h4>NEXA Marketing</h4><a href="#nang-luc" data-row="0">Nội dung web</a><a href="#nang-luc" data-row="0">Content social</a><a href="#nang-luc" data-row="0">SEO</a><a href="#nang-luc" data-row="0">Facebook Ads</a><a href="#nang-luc" data-row="0">Google Ads</a><a href="#nang-luc" data-row="0">TikTok Ads</a><a href="#nang-luc" data-row="0">Thương mại điện tử</a></div>
       <div><h4>NEXA Branding</h4><a href="#nang-luc" data-row="1">Video doanh nghiệp</a><a href="#nang-luc" data-row="1">Video marketing</a><a href="#nang-luc" data-row="1">Ảnh sản phẩm</a><a href="#nang-luc" data-row="1">Logo &amp; bộ nhận diện</a><a href="#nang-luc" data-row="1">Hồ sơ năng lực</a><a href="#nang-luc" data-row="1">PR &amp; Booking</a></div>
       <div><h4>NEXA Tech</h4><a href="#nang-luc" data-row="2">Thiết kế website</a><a href="#nang-luc" data-row="2">Landing Page</a><a href="#nang-luc" data-row="2">AI Agent</a><a href="#nang-luc" data-row="2">Martech Platform</a></div>
-      <div><h4>Giải pháp</h4><a href="#trien-lam">Sự kiện triển lãm</a><a href="#b2b">Doanh nghiệp B2B</a><a href="#b2b-pin" data-step="0">B2B · Build</a><a href="#b2b-pin" data-step="1">B2B · Reach</a><a href="#b2b-pin" data-step="2">B2B · Grow</a></div>
+      <div><h4>Giải pháp</h4><a href="#trien-lam">Sự kiện triển lãm</a><a href="../nexa-b2b/">Doanh nghiệp B2B</a><a href="#b2b-pin" data-step="0">B2B · Build</a><a href="#b2b-pin" data-step="1">B2B · Reach</a><a href="#b2b-pin" data-step="2">B2B · Grow</a></div>
       <div><h4>Về NEXA</h4><a href="#ve-nexa">Ngành nghề NEXA</a><a href="#quy-trinh">Quy trình</a><a href="#du-an">Dự án</a><a href="#lien-he">Đặt lịch tư vấn</a><a href="#top">Về đầu trang</a></div>
     </div>
     <div class="f-info">
@@ -1086,7 +1086,7 @@ bg.addEventListener('click',()=>{const o=!mnav.classList.contains('open');mnav.c
 function closeAll(){closeMega();closeLang();if(mnav.classList.contains('open')){mnav.classList.remove('open');bg.setAttribute('aria-expanded','false');$('use',bg).setAttribute('href','#i-menu');lenis&&lenis.start()}closePal()}
 /* search */
 const IDX=[...$$('#m-dv .col').flatMap(c=>{const g=$('.mh b',c).textContent,r=$('.mh',c).dataset.row;return $$('.mi',c).map(a=>[$('b',a).textContent,g,'#nang-luc',$('small',a).textContent,{row:r}])}),
- ['Sự kiện triển lãm','Giải pháp','#trien-lam'],['Doanh nghiệp B2B','Giải pháp','#b2b'],['B2B · Build','Xây dựng nền tảng','#b2b-pin','',{step:0}],['B2B · Reach','Tiếp cận thị trường','#b2b-pin','',{step:1}],['B2B · Grow','Dữ liệu & công nghệ','#b2b-pin','',{step:2}],
+ ['Sự kiện triển lãm','Giải pháp','#trien-lam'],['Doanh nghiệp B2B','Giải pháp','../nexa-b2b/'],['B2B · Build','Xây dựng nền tảng','#b2b-pin','',{step:0}],['B2B · Reach','Tiếp cận thị trường','#b2b-pin','',{step:1}],['B2B · Grow','Dữ liệu & công nghệ','#b2b-pin','',{step:2}],
  ['Ngành nghề NEXA','Về NEXA','#ve-nexa'],['Quy trình','NEXA Framework','#quy-trinh'],['Dự án tiêu biểu','Case Studies','#du-an'],['Đặt lịch tư vấn','Khảo sát nhu cầu','#lien-he']];
 const pal=$('#pal'),pq=$('#pal-q'),pl=$('#pal-list');let sel=0,res=[];
 const norm=s=>s.normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/đ/g,'d').replace(/Đ/g,'D').toLowerCase();
@@ -1098,7 +1098,7 @@ function closePal(){if(!pal.classList.contains('open'))return;pal.classList.remo
 $('#open-search').addEventListener('click',openPal);
 pq.addEventListener('input',()=>{sel=0;render()});
 pal.addEventListener('click',e=>{if(e.target===pal)closePal()});
-pq.addEventListener('keydown',e=>{if(e.key==='ArrowDown'){e.preventDefault();sel=Math.min(sel+1,res.length-1);render()}else if(e.key==='ArrowUp'){e.preventDefault();sel=Math.max(sel-1,0);render()}else if(e.key==='Enter'&&res[sel]){e.preventDefault();const a=$$('#pal-list a')[sel];closePal();go(a.getAttribute('href'),a)}});
+pq.addEventListener('keydown',e=>{if(e.key==='ArrowDown'){e.preventDefault();sel=Math.min(sel+1,res.length-1);render()}else if(e.key==='ArrowUp'){e.preventDefault();sel=Math.max(sel-1,0);render()}else if(e.key==='Enter'&&res[sel]){e.preventDefault();const a=$$('#pal-list a')[sel];closePal();const h=a.getAttribute('href');if(h[0]==='#')go(h,a);else location.href=h}});
 d.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();openPal()}if(e.key==='Escape')closeAll()});
 
 /* ---------- capabilities accordion ---------- */

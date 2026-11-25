@@ -678,8 +678,8 @@ ul,ol{margin:0;padding:0;list-style:none}
       <div class="mega-s">
         <div class="col"><p class="mlb" style="--i:0">GIẢI PHÁP THEO NGÀNH</p></div>
         <div class="col"><a class="sol" href="#top" aria-current="page" style="--c:var(--or);--i:1"><b>Sự kiện triển lãm</b><p>Đồng hành cùng đơn vị tổ chức và doanh nghiệp tham gia triển lãm.</p></a></div>
-        <div class="col"><div class="sol" style="--c:var(--blue);--i:2"><a href="../nexa-solution/#b2b"><b>Doanh nghiệp B2B</b><p>Nâng cấp thương hiệu, kết nối đối tác, mở rộng thị trường.</p></a>
-          <div class="chips-m"><a href="../nexa-solution/#b2b-pin">Build</a><a href="../nexa-solution/#b2b-pin">Reach</a><a href="../nexa-solution/#b2b-pin">Grow</a></div></div></div>
+        <div class="col"><div class="sol" style="--c:var(--blue);--i:2"><a href="../nexa-b2b/"><b>Doanh nghiệp B2B</b><p>Nâng cấp thương hiệu, kết nối đối tác, mở rộng thị trường.</p></a>
+          <div class="chips-m"><a href="../nexa-b2b/#sol-1">Build</a><a href="../nexa-b2b/#sol-2">Reach</a><a href="../nexa-b2b/#sol-3">Grow</a></div></div></div>
       </div>
     </div>
   </div>
@@ -688,7 +688,7 @@ ul,ol{margin:0;padding:0;list-style:none}
   <p class="mg" style="--i:0">NEXA Solution</p>
   <a href="../nexa-solution/#nang-luc" style="--i:1">Dịch vụ</a>
   <a href="#top" aria-current="page" style="--i:2">Giải pháp · Sự kiện triển lãm</a>
-  <a href="../nexa-solution/#b2b" style="--i:3">Giải pháp · Doanh nghiệp B2B</a>
+  <a href="../nexa-b2b/" style="--i:3">Giải pháp · Doanh nghiệp B2B</a>
   <a href="../nexa-solution/#quy-trinh" style="--i:4">Quy trình</a>
   <a href="../nexa-solution/#du-an" style="--i:5">Dự án</a>
   <a href="../nexa-solution/#ve-nexa" style="--i:6">Về NEXA</a>
@@ -1160,7 +1160,7 @@ const IDX=[
  ['Trước triển lãm','Trên trang này · Ba chặng','#st-1'],['Trong triển lãm','Trên trang này · Ba chặng','#st-3'],['Sau triển lãm','Trên trang này · Ba chặng','#st-4'],
  ['Quy trình N-E-X-A','Trên trang này','#quy-trinh'],['Dự án triển lãm','Trên trang này','#du-an'],['Hỏi đáp','Trên trang này','#faq'],['Nhận đề xuất cho triển lãm','Trên trang này','#lien-he'],
  ...$$('#m-dv .col').flatMap(c=>{const g=$('.mh b',c).textContent;return $$('.mi',c).map(a=>[$('b',a).textContent,g,a.getAttribute('href'),$('small',a).textContent])}),
- ['Doanh nghiệp B2B','Giải pháp',MAIN+'#b2b'],['Ngành nghề NEXA','Về NEXA',MAIN+'#ve-nexa'],['Quy trình NEXA','Trang chủ NEXA',MAIN+'#quy-trinh'],['Dự án tiêu biểu','Trang chủ NEXA',MAIN+'#du-an']];
+ ['Doanh nghiệp B2B','Giải pháp','../nexa-b2b/'],['Ngành nghề NEXA','Về NEXA',MAIN+'#ve-nexa'],['Quy trình NEXA','Trang chủ NEXA',MAIN+'#quy-trinh'],['Dự án tiêu biểu','Trang chủ NEXA',MAIN+'#du-an']];
 const pal=$('#pal'),pq=$('#pal-q'),pl=$('#pal-list');let sel=0,res=[];
 const norm=s=>s.normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/đ/g,'d').replace(/Đ/g,'D').toLowerCase();
 const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
