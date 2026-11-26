@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="icon" href="favicon.ico">
-<title>NEXA – Dịch vụ SEO, AIO, GEO cho doanh nghiệp B2B</title>
-<meta name="description" content="Dịch vụ SEO, AIO, GEO của NEXA: nội dung chuẩn SEO, tối ưu để hiện trong AI Overview và câu trả lời của AI chatbot, kèm cam kết số page và số responses theo từng gói. Từ 10 triệu đồng mỗi tháng.">
+<title>NEXA – Dịch vụ SEO, AIO, GEO</title>
+<meta name="description" content="Nội dung chuẩn SEO, tối ưu để hiện trong AI Overview và trong câu trả lời của các AI chatbot, kèm cam kết số page và số responses theo từng gói.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap" rel="stylesheet">
@@ -228,9 +228,6 @@ ul,ol{margin:0;padding:0;list-style:none}
 .ai-top i{flex:none;width:10px;height:10px;border-radius:50%;background:#FF5F57}
 .ai-top i:nth-child(2){background:#FEBC2E}.ai-top i:nth-child(3){background:#28C840}
 .ai-top span{min-width:0;margin-left:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.ai-rp{margin-left:auto;flex:none;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;color:#7A86A6;transition:background .3s,color .3s,transform .6s var(--ease)}
-.ai-rp .ic{width:16px;height:16px}
-.ai-rp:hover{background:var(--paper);color:var(--ink);transform:rotate(-180deg)}
 .ai-q{display:flex;align-items:center;gap:12px;min-height:52px;padding:0 20px;border-radius:999px;border:1px solid #DCE3F1;font-size:15.5px;font-weight:500;box-shadow:0 10px 22px -16px rgba(6,22,80,.35)}
 .ai-q .ic{width:19px;height:19px;color:#7A86A6}
 .ai-q .caret{width:2px;height:20px;margin-left:-9px;background:var(--or);opacity:0}
@@ -285,7 +282,7 @@ ul,ol{margin:0;padding:0;list-style:none}
 .fx .bn h3,.fx .bn p{opacity:0;transform:translateY(14px);transition:opacity .8s calc(var(--d,0ms) + 300ms),transform 1s var(--ease) calc(var(--d,0ms) + 300ms)}
 .fx .bn-g.in .bn h3,.fx .bn-g.in .bn p{opacity:1;transform:none}
 
-/* ================= SIGNS (C · photo zooms out, bubbles float on their own depth, rows skid in, self-check) ================= */
+/* ================= SIGNS (C · photo zooms out, bubbles float on their own depth, rows skid in) ================= */
 .sg-g{margin-top:56px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(30px,4.4vw,72px);align-items:center}
 .sg-ph{position:relative;aspect-ratio:1/1;border-radius:28px;overflow:hidden;box-shadow:0 50px 90px -56px rgba(6,22,80,.6);isolation:isolate}
 .sg-ph img{width:100%;height:100%;object-fit:cover;will-change:transform}
@@ -293,24 +290,12 @@ ul,ol{margin:0;padding:0;list-style:none}
 .bub{position:absolute;z-index:1;max-width:min(80%,400px);padding:14px 18px;border-radius:18px;font-size:15px;font-weight:600;line-height:1.45;box-shadow:0 22px 40px -20px rgba(3,11,50,.6);will-change:transform}
 .bub.bq{right:22px;bottom:104px;background:#1E4FD8;color:#fff;border-bottom-right-radius:6px}
 .bub.ba{left:22px;bottom:30px;background:#fff;color:var(--ink);border-bottom-left-radius:6px}
-.sg-hint{display:flex;align-items:center;gap:10px;margin-bottom:14px;font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--mut)}
-.sg-hint .ic{width:16px;height:16px;color:var(--or)}
 .sg-l{display:grid;gap:12px}
 .sg-i{display:grid;grid-template-columns:32px minmax(0,1fr);gap:16px;align-items:center;width:100%;text-align:left;padding:20px 24px;border-radius:18px;border:1px solid var(--line);background:#fff;font-size:clamp(16px,1.2vw,18px);font-weight:700;line-height:1.45;color:var(--ink);transition:background .4s,border-color .4s,transform .5s var(--ease),box-shadow .5s}
-.sg-i .bx{width:32px;height:32px;border-radius:10px;border:2px solid var(--or);display:grid;place-items:center;transition:background .35s,transform .5s cubic-bezier(.34,1.56,.64,1)}
-.sg-i .bx svg{width:18px;height:18px;fill:none;stroke:#fff;stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round}
-.sg-i .bx path{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .5s var(--ease) .08s}
-.sg-i[aria-pressed="true"]{background:#FFF5EC;border-color:rgba(255,122,33,.55);box-shadow:0 20px 40px -30px rgba(255,122,33,.9)}
-.sg-i[aria-pressed="true"] .bx{background:var(--or);transform:scale(1.08)}
-.sg-i[aria-pressed="true"] .bx path{stroke-dashoffset:0}
-@media (hover:hover){.sg-i:hover{transform:translateX(6px);border-color:rgba(255,122,33,.45)}}
+.sg-i .bx{width:32px;height:32px;border-radius:10px;border:2px solid var(--or);display:grid;place-items:center}
 .sg-r{margin-top:24px;display:flex;flex-wrap:wrap;align-items:center;gap:16px 26px}
-.sg-r p{flex:1 1 240px;font-size:15px;line-height:1.55;color:var(--mut)}
-.sg-r p b{color:var(--ink)}
 .fx .sg-i{opacity:0;transform:translateX(70px) skewX(-12deg);transition:opacity .7s calc(var(--k) * 110ms),transform 1.1s var(--ease) calc(var(--k) * 110ms),background .4s,border-color .4s,box-shadow .5s}
 .fx .sg-l.in .sg-i{opacity:1;transform:none}
-.fx .sg-l.in.ok .sg-i{transition-delay:0s}
-@media (hover:hover){.fx .sg-l.in.ok .sg-i:hover{transform:translateX(6px)}}
 
 /* ================= LAYERS (D · pinned: three glass plates drop onto one content base) ================= */
 .ly{background:radial-gradient(900px 620px at 28% 64%,rgba(37,73,201,.5),rgba(37,73,201,0) 70%),radial-gradient(640px 420px at 92% 96%,rgba(255,122,33,.12),rgba(255,122,33,0) 70%),var(--ink-2);overflow:hidden}
@@ -319,7 +304,6 @@ ul,ol{margin:0;padding:0;list-style:none}
 .ly-g{margin-top:clamp(36px,6vh,64px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,90px);align-items:center}
 .stk{--s:clamp(150px,13vw,214px);--gp:calc(var(--s) * .4);position:relative;height:calc(var(--s) * 2.3);max-width:560px;width:100%;margin-inline:auto}
 .stk .base{position:absolute;left:50%;bottom:0;width:calc(var(--s) * 1.9);height:calc(var(--s) * .66);margin-left:calc(var(--s) * -.95);border-radius:50%;border:1.5px dashed rgba(255,255,255,.22);background:radial-gradient(closest-side,rgba(61,123,255,.32),rgba(61,123,255,0))}
-.stk .base span{position:absolute;left:50%;bottom:-34px;transform:translateX(-50%);white-space:nowrap;font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--mut-d)}
 .plate{--c:#3D7BFF;--cl:#9CC1FF;--cd:#12308F;position:absolute;left:50%;width:var(--s);height:var(--s);margin-left:calc(var(--s) / -2);bottom:calc(var(--s) * -.08 + var(--i) * var(--gp))}
 .plate:nth-child(3){--c:#FF8A3D;--cl:#FFC48F;--cd:#B9470A}
 .plate:nth-child(4){--c:#1FC57A;--cl:#8FF0C2;--cd:#0B6A55}
@@ -331,7 +315,6 @@ ul,ol{margin:0;padding:0;list-style:none}
 .plate .rp{position:absolute;left:-22%;right:-22%;top:6%;bottom:6%;border-radius:50%;border:2px solid var(--cl);opacity:0;pointer-events:none}
 .beam{position:absolute;left:50%;bottom:calc(var(--s) * .5 + var(--gp) * 3);width:3px;height:calc(var(--s) * .42);margin-left:-1.5px;background:linear-gradient(0deg,rgba(255,255,255,.9),rgba(108,192,255,0));transform-origin:50% 100%;opacity:0;filter:drop-shadow(0 0 8px rgba(108,192,255,.9))}
 .beam i{position:absolute;left:50%;top:0;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;background:#fff;box-shadow:0 0 18px 6px rgba(108,192,255,.9)}
-.beam span{position:absolute;left:calc(50% + 18px);top:-6px;white-space:nowrap;font-size:13px;font-weight:700;color:#fff;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2)}
 .lyc{display:grid;gap:12px}
 .lc{--c:#6C9BFF;position:relative;padding:22px 26px;border-radius:18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);transition:background .6s,border-color .6s,opacity .6s}
 .lc:nth-child(2){--c:#FF9A52}.lc:nth-child(3){--c:#2FD487}
@@ -357,8 +340,6 @@ ul,ol{margin:0;padding:0;list-style:none}
 .sl-g{margin-top:24px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(40px,6vw,110px)}
 .sl{--c:#1E4FD8;min-height:clamp(440px,74vh,660px);display:flex;flex-direction:column;justify-content:center;padding:48px 0;scroll-margin-top:90px}
 .sl:nth-child(2){--c:#E8660C}.sl:nth-child(3){--c:#13985C}.sl:nth-child(4){--c:#7B4DFF}
-.sl .k{display:flex;align-items:center;gap:12px;font-size:12.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--c)}
-.sl .k::before{content:"";width:26px;height:2px;background:currentColor}
 .sl h3{margin-top:14px;font-size:clamp(30px,3.2vw,52px);font-weight:800;letter-spacing:-.035em;line-height:1.06}
 .sl>p{margin-top:16px;font-size:clamp(16px,1.2vw,18px);line-height:1.65;color:var(--mut);max-width:540px}
 .sl ul{margin-top:26px;border-top:1px solid var(--line)}
@@ -480,31 +461,28 @@ ul,ol{margin:0;padding:0;list-style:none}
 .ck-t.sw td.p>*{animation:flip .5s var(--ease)}
 @keyframes flip{from{opacity:0;transform:translateY(10px) rotateX(70deg)}}
 
-/* ================= CONSULT (I · the question is typed, sent, and answered) ================= */
-.cs-g{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(40px,6vw,100px);align-items:center}
-.chat{position:relative;border-radius:28px;background:#fff;border:1px solid var(--line);box-shadow:0 60px 110px -70px rgba(6,22,80,.65);overflow:hidden}
-.chat-h{display:flex;align-items:center;gap:14px;padding:18px 22px;border-bottom:1px solid var(--line)}
-.chat-h img{width:50px;height:50px;border-radius:50%;object-fit:cover;object-position:50% 12%;background:#DCE6FF;transform:scale(1);box-shadow:0 0 0 3px #fff,0 0 0 5px rgba(30,79,216,.18)}
-.chat-h b{display:block;font-size:16px;font-weight:800}
-.chat-h small{display:flex;align-items:center;gap:7px;margin-top:2px;font-size:13px;font-weight:600;color:#13985C}
-.chat-h small::before{content:"";width:8px;height:8px;border-radius:50%;background:#13C46E;box-shadow:0 0 0 0 rgba(19,196,110,.6);animation:live 2s ease-out infinite}
-@keyframes live{to{box-shadow:0 0 0 9px rgba(19,196,110,0)}}
-.chat-h em{margin-left:auto;font-style:normal;font-size:11.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#9AA4BE}
-.chat-b{display:flex;flex-direction:column;justify-content:flex-end;gap:12px;min-height:270px;padding:26px 22px 20px;background:linear-gradient(180deg,#F6F8FE,#fff)}
+/* ================= CONSULT (I · photo settles onto its back plate, the question pops, the answer streams) ================= */
+.cs-g{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(40px,6vw,100px);align-items:center}
+.cs-ph{position:relative;width:100%;max-width:440px;margin-inline:auto}
+.cs-ph::before{content:"";position:absolute;inset:8% -4% -4% 8%;border-radius:32px;background:#083B98;opacity:.12}
+.cs-ph img{position:relative;display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:28px;background:#EEF4FF;box-shadow:0 40px 80px -44px rgba(6,22,80,.5)}
+.cs-ph figcaption{position:absolute;left:-12px;bottom:26px;display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;background:#fff;box-shadow:0 12px 30px rgba(6,22,80,.22);font-size:14px;font-weight:800;color:var(--ink)}
+.cs-ph figcaption i{width:10px;height:10px;border-radius:50%;background:#0B9C5A;box-shadow:0 0 0 0 rgba(11,156,90,.55);animation:live 2s ease-out infinite}
+@keyframes live{to{box-shadow:0 0 0 9px rgba(11,156,90,0)}}
+.fx .cs-ph::before{opacity:0;transform:translate(-9%,-9%);transition:transform 1.2s var(--ease) .2s,opacity .8s .2s}
+.fx .cs-ph img{opacity:0;transform:translateY(46px) rotate(-4deg) scale(.92);transition:transform 1.2s var(--ease),opacity .7s}
+.fx .cs-ph figcaption{opacity:0;transform:translateX(-30px) scale(.8);transition:transform .7s cubic-bezier(.34,1.56,.64,1) .75s,opacity .4s .75s}
+.fx .cs-ph.in::before{opacity:.12;transform:none}
+.fx .cs-ph.in img,.fx .cs-ph.in figcaption{opacity:1;transform:none}
+.chat-b{margin-top:30px;display:flex;flex-direction:column;gap:12px}
 .m-u{align-self:flex-end;max-width:86%;padding:13px 18px;border-radius:18px 18px 6px 18px;background:#1E4FD8;color:#fff;font-size:15.5px;font-weight:600;line-height:1.45;transform-origin:100% 100%}
-.m-n{align-self:flex-start;max-width:92%;padding:14px 18px;border-radius:18px 18px 18px 6px;background:#fff;border:1px solid var(--line);font-size:15.5px;line-height:1.6;box-shadow:0 18px 34px -26px rgba(6,22,80,.45);transform-origin:0 100%}
-.m-t{align-self:flex-start;display:none;gap:5px;padding:15px 16px;border-radius:16px;background:#fff;border:1px solid var(--line)}
+.m-w{position:relative;align-self:flex-start;max-width:92%}
+.m-n{padding:14px 18px;border-radius:18px 18px 18px 6px;background:#fff;border:1px solid var(--line);font-size:15.5px;line-height:1.6;box-shadow:0 18px 34px -26px rgba(6,22,80,.45);transform-origin:0 100%}
+.m-t{position:absolute;left:0;top:0;display:none;gap:5px;padding:15px 16px;border-radius:16px;background:#fff;border:1px solid var(--line)}
 .m-t i{width:7px;height:7px;border-radius:50%;background:#7A86A6;animation:dot 1s ease-in-out infinite}
 .m-t i:nth-child(2){animation-delay:.15s}.m-t i:nth-child(3){animation-delay:.3s}
-.chat-in{display:flex;align-items:center;gap:10px;margin:0 16px 16px;padding:6px 6px 6px 20px;border-radius:999px;border:1px solid var(--line);background:#fff;transition:border-color .3s}
-.chat-in span{flex:1;min-width:0;font-size:15px;color:#9AA4BE;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.chat-in span.tx{color:var(--ink)}
-.chat-in i{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:var(--or);color:#160A02;transition:transform .4s cubic-bezier(.34,1.56,.64,1)}
-.chat-in i .ic{width:18px;height:18px}
-.chat-in.go i{transform:scale(.82) rotate(-25deg)}
-.chat-in:hover{border-color:var(--or)}
 .cs-r .lead{margin-top:22px}
-.cs-r .row2{margin-top:32px;display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px}
+.cs-r .row2{margin-top:28px;display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px}
 .cs-r .row2 small{font-size:14.5px;color:var(--mut)}
 
 /* ================= COMMITMENT (J · bars fill with the scroll, numbers count along) ================= */
@@ -543,8 +521,7 @@ ul,ol{margin:0;padding:0;list-style:none}
 .ps-nd.on{background:var(--ink);border-color:var(--ink);color:#fff;transform:scale(1.08)}
 .ps-g{margin-top:22px}
 .ps{position:relative;padding:26px 22px 28px;border-radius:20px;background:#fff;border:1px solid var(--line);transition:opacity .6s,transform .8s var(--ease),box-shadow .8s,border-color .6s}
-.ps small{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--or)}
-.ps h3{margin-top:10px;font-size:clamp(18px,1.4vw,21px);font-weight:800;letter-spacing:-.01em;line-height:1.3}
+.ps h3{margin-top:0;font-size:clamp(18px,1.4vw,21px);font-weight:800;letter-spacing:-.01em;line-height:1.3}
 .ps p{margin-top:10px;font-size:14.5px;line-height:1.6;color:var(--mut)}
 .ps .pm{display:none}
 .fx .ps{opacity:.38;transform:translateY(18px)}
@@ -552,13 +529,13 @@ ul,ol{margin:0;padding:0;list-style:none}
 
 /* ================= WHY NEXA (L · bento tiles slide out of their own edge, logo strip runs) ================= */
 .wy-g{margin-top:56px;display:grid;grid-template-columns:minmax(0,1.15fr) repeat(2,minmax(0,1fr));gap:16px}
-.wy-big{grid-row:span 2;position:relative;display:flex;flex-direction:column;justify-content:flex-end;min-height:460px;padding:clamp(28px,3vw,44px);border-radius:26px;background:radial-gradient(520px 420px at 80% 10%,#1B3A99 0%,rgba(27,58,153,0) 70%),var(--ink);color:#fff;overflow:hidden;isolation:isolate}
-.wy-big .lnx{position:absolute;z-index:-1;left:-10%;bottom:-36%;width:130%;max-width:none;opacity:.22;pointer-events:none}
-.wy-big .xm{position:absolute;z-index:-1;right:6%;top:9%;width:40%;max-width:220px;filter:drop-shadow(0 0 40px rgba(255,122,33,.35));animation:float 7s ease-in-out infinite}
-@keyframes float{0%,100%{transform:translateY(-6px) rotate(-3deg)}50%{transform:translateY(8px) rotate(2deg)}}
-.wy-big small{font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--or-2)}
-.wy-big h3{margin-top:12px;font-size:clamp(30px,3vw,48px);font-weight:900;letter-spacing:-.035em;line-height:1.04}
-.wy-big p{margin-top:12px;font-size:17px;line-height:1.6;color:var(--mut-d);max-width:420px}
+.wy-big{grid-row:span 2;position:relative;display:flex;flex-direction:column;justify-content:flex-end;min-height:460px;padding:clamp(26px,2.6vw,40px);border-radius:26px;background:var(--ink);color:#fff;overflow:hidden;isolation:isolate}
+.wy-big img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover}
+.wy-big::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(3,11,50,0) 38%,rgba(3,11,50,.8) 100%)}
+.wy-big h3{font-size:clamp(26px,2.4vw,38px);font-weight:900;letter-spacing:-.03em;line-height:1.08}
+.wy-big p{margin-top:10px;font-size:17px;line-height:1.6;color:#E7EDFF;max-width:420px}
+.fx .wy-g .wy-big img{transform:scale(1.18);transition:transform 1.8s var(--ease) .1s}
+.fx .wy-g.in .wy-big img{transform:none}
 .wy{--c:#1E4FD8;--cl:#E8EFFF;position:relative;padding:30px 28px 32px;border-radius:22px;background:var(--paper);border:1px solid var(--line);transition:background .5s,transform .6s var(--ease)}
 .wy:nth-child(3){--c:#E8660C;--cl:#FFF0E4}.wy:nth-child(4){--c:#13985C;--cl:#E3F7EE}.wy:nth-child(5){--c:#7B4DFF;--cl:#EFEAFF}
 .wy .wi{width:52px;height:52px;border-radius:15px;display:grid;place-items:center;background:var(--cl);color:var(--c)}
@@ -574,20 +551,14 @@ ul,ol{margin:0;padding:0;list-style:none}
 .fx .wy-g>:nth-child(5){clip-path:inset(100% 0 0 0 round 22px)}
 .fx .wy-g.in>*{clip-path:inset(0 0 0 0 round 22px)}
 .fx .wy-g.in>.wy-big{clip-path:inset(0 0 0 0 round 26px)}
-.mq{margin-top:72px;display:grid;grid-template-columns:230px minmax(0,1fr);gap:36px;align-items:center}
-.mq>p{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;line-height:1.7}
+#vi-sao{padding-bottom:clamp(56px,7vh,80px)}
+.kh{padding:0 0 clamp(100px,13vh,150px)}
 .mq-v{overflow:hidden;-webkit-mask:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
 .mq-t{display:flex;gap:12px;width:max-content;animation:mq 34s linear infinite}
 .mq-v:hover .mq-t{animation-play-state:paused}
 .mq-t li{flex:none;width:190px;height:100px;display:grid;place-items:center;padding:14px 22px;border-radius:14px;background:#fff;border:1px solid var(--line)}
 .mq-t img{max-width:100%;max-height:62px;width:auto;height:auto;object-fit:contain}
 @keyframes mq{to{transform:translateX(calc(-50% - 6px))}}
-
-/* ================= FAQ / CONTACT additions ================= */
-.fd select{width:100%;height:50px;padding:0 28px 0 0;border:0;border-bottom:1px solid rgba(6,22,80,.25);background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23061650' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") right 2px center/18px no-repeat;font-size:17px;color:var(--ink);outline:0;border-radius:0;-webkit-appearance:none;appearance:none;cursor:pointer}
-.fd select:focus~.ln{transform:none}
-.form.pick .fd.pk select{animation:pk 1.2s var(--ease)}
-@keyframes pk{0%,100%{background-color:transparent}30%{background-color:#FFF1E4}}
 
 /* ================= FAQ ================= */
 .faq{padding:clamp(100px,13vh,150px) 0}
@@ -614,9 +585,6 @@ ul,ol{margin:0;padding:0;list-style:none}
 .ct .h2{font-size:clamp(38px,4.8vw,80px)}
 .ct .lead{margin-top:26px}
 .dl{margin-top:36px;display:flex;flex-wrap:wrap;gap:12px}
-.dir{margin-top:40px;display:grid;gap:14px;font-size:16px}
-.dir a{display:inline-flex;align-items:center;gap:12px;font-weight:700}
-.dir .ic{width:18px;height:18px;color:var(--or)}
 .form{padding:clamp(24px,3vw,44px);border-radius:10px;background:#fff;color:var(--ink)}
 .form h3{font-size:26px;font-weight:800;letter-spacing:-.02em}
 .fg{margin-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:6px 28px}
@@ -642,7 +610,7 @@ ul,ol{margin:0;padding:0;list-style:none}
 .ct-bg::after{background:linear-gradient(180deg,var(--ink-2) 0%,rgba(3,11,50,.55) 40%,var(--ink-2) 100%)}
 /* ================= FOOTER ================= */
 .ftr{padding:100px 0 0;overflow:hidden;border-top:1px solid var(--line-d)}
-.f-cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.3fr;gap:28px;padding-bottom:56px;border-bottom:1px solid var(--line-d)}
+.f-cols{display:grid;grid-template-columns:1.3fr repeat(5,minmax(0,1fr));gap:28px;padding-bottom:56px;border-bottom:1px solid var(--line-d)}
 .f-cols .tagl{font-style:italic;font-weight:500;color:var(--sky);margin-top:18px;font-size:15px}
 .f-cols h4{font-size:15px;font-weight:700}
 .f-cols a{display:block;width:max-content;max-width:100%;margin-top:12px;font-size:14px;color:#AEB9D8;transition:color .3s}
@@ -650,6 +618,12 @@ ul,ol{margin:0;padding:0;list-style:none}
 .f-cols li{display:flex;gap:12px;margin-top:12px;font-size:14px;line-height:1.6;color:#AEB9D8}
 .f-cols li .ic{width:17px;height:17px;color:var(--or);margin-top:2px}
 .f-cols li b,.f-cols li a{color:#fff;margin:0;display:inline;font-size:inherit}
+.f-info{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:28px;padding:44px 0;border-bottom:1px solid var(--line-d)}
+.f-info h4{font-size:15px;font-weight:700}
+.f-info li{display:flex;gap:12px;margin-top:12px;font-size:14px;line-height:1.6;color:#AEB9D8}
+.f-info li .ic{width:17px;height:17px;flex:none;color:var(--or);margin-top:2px}
+.f-info li b,.f-info li a{color:#fff}
+.f-info .btn{margin-top:20px}
 .co{margin-top:14px;font-weight:700;font-size:14.5px}
 .soc{display:flex;gap:10px;margin-top:16px}
 .soc a{width:44px;height:44px;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line-d);margin:0;transition:background .4s,border-color .4s;color:#fff}
@@ -727,7 +701,6 @@ ul,ol{margin:0;padding:0;list-style:none}
   .stk{--s:min(38vw,170px)}
   .lc{padding:20px 20px 22px}
   .lc h3{font-size:30px}
-  .beam span{font-size:12px}
   /* solutions */
   .sl-g{display:block;margin-top:12px}
   .sl-side{display:none}
@@ -778,10 +751,9 @@ ul,ol{margin:0;padding:0;list-style:none}
   .ck-f{flex-direction:column;align-items:flex-start}
   /* consult */
   .cs-g{grid-template-columns:1fr;gap:36px}
-  .cs-g .chat{order:2}
-  .chat-b{min-height:240px;padding:20px 16px 16px}
+  .cs-ph{max-width:340px}
+  .cs-ph figcaption{left:-6px;bottom:18px}
   .m-u,.m-n{font-size:14.5px}
-  .chat-h em{display:none}
   /* commitment */
   .cm-g{grid-template-columns:1fr;gap:12px;margin-top:36px}
   .cb-r{grid-template-columns:52px minmax(0,1fr) 64px;gap:12px}
@@ -803,7 +775,6 @@ ul,ol{margin:0;padding:0;list-style:none}
   .wy-g{grid-template-columns:1fr;gap:12px;margin-top:36px}
   .wy-big{min-height:300px;border-radius:22px}
   .wy{padding:24px 22px 26px}
-  .mq{grid-template-columns:1fr;gap:16px;margin-top:52px}
   .mq-t li{width:150px;height:84px;padding:12px 16px}
   /* shared parts */
   .faq-g .h2{position:static}
@@ -812,6 +783,7 @@ ul,ol{margin:0;padding:0;list-style:none}
   .fg{grid-template-columns:1fr}
   .f-cols{grid-template-columns:1fr 1fr}
   .f-cols>div:first-child,.f-cols>div:last-child{grid-column:1/-1}
+  .f-info{grid-template-columns:1fr}
   .f-bot{flex-direction:column;align-items:flex-start;padding-bottom:110px}
   .dock{left:12px;right:12px;width:auto;max-width:none;bottom:max(10px,env(safe-area-inset-bottom));transform:translateY(160%);gap:0;padding:5px}
   .dock.show{transform:none}
@@ -822,7 +794,7 @@ ul,ol{margin:0;padding:0;list-style:none}
   .dock .call{padding:0 12px;margin-left:2px}
   .dock .call span{display:none}
   /* single columns never grow past the screen because of one long label */
-  .sg-g,.ly-g,.cs-g,.cm-g,.wy-g,.mq,.bn-g,.pr-g{grid-template-columns:minmax(0,1fr)}
+  .sg-g,.ly-g,.cs-g,.cm-g,.wy-g,.bn-g,.pr-g{grid-template-columns:minmax(0,1fr)}
 }
 @media (max-width:400px){
   main .btn{white-space:normal;height:auto;min-height:50px;padding-top:7px;padding-bottom:7px;line-height:1.25;max-width:100%}
@@ -876,11 +848,8 @@ ul,ol{margin:0;padding:0;list-style:none}
   <symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M18 17V9M13 17V5M8 17v-3"/></symbol>
   <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></symbol>
   <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 2.5c.6 5.1 3.4 8 8.5 8.5-5.1.6-7.9 3.4-8.5 8.5-.6-5.1-3.4-7.9-8.5-8.5 5.1-.5 7.9-3.4 8.5-8.5Z"/></symbol>
-  <symbol id="i-play" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></symbol>
-  <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></symbol>
   <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 2 10 5-10 5L2 7Z"/><path d="m2 17 10 5 10-5M2 12l10 5 10-5"/></symbol>
   <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-3.6 8-10V5l-8-3-8 3v7c0 6.4 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></symbol>
-  <symbol id="i-hand" viewBox="0 0 24 24"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V10M12 9.5V4a1.5 1.5 0 0 1 3 0v6M15 7.5a1.5 1.5 0 0 1 3 0V14a7 7 0 0 1-7 7h-.6a6 6 0 0 1-4.6-2.2L3 15.3a1.6 1.6 0 0 1 2.4-2.1L9 16V8a1.5 1.5 0 0 1 3 0"/></symbol>
   <symbol id="i-xc" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
 </svg>
 
@@ -958,7 +927,7 @@ ul,ol{margin:0;padding:0;list-style:none}
   <a href="../nexa-solution/#du-an" style="--i:6">Dự án</a>
   <a href="../nexa-solution/#ve-nexa" style="--i:7">Về NEXA</a>
   <p class="mg" style="--i:8">Trên trang này</p>
-  <div class="mloc" style="--i:9"><a href="#loi-ich">Lợi ích</a><a href="#cach-lam">Cách làm</a><a href="#giai-phap">Giải pháp</a><a href="#bang-gia">Bảng giá</a><a href="#checklist">Checklist</a><a href="#quy-trinh">Quy trình</a><a href="#faq">Hỏi đáp</a></div>
+  <div class="mloc" style="--i:9"><a href="#co-hoi">Lợi ích</a><a href="#ba-lop">Cách làm</a><a href="#giai-phap">Giải pháp</a><a href="#bang-gia">Bảng giá</a><a href="#checklist">Checklist</a><a href="#quy-trinh">Quy trình</a><a href="#faq">Hỏi đáp</a></div>
   <a class="btn" href="#lien-he" style="--i:10">Nhận tư vấn SEO <span class="ar"><svg class="ic"><use href="#i-arrow"/></svg><svg class="ic"><use href="#i-arrow"/></svg></span></a>
 </nav>
 <div class="pal" id="pal" aria-hidden="true">
@@ -970,8 +939,8 @@ ul,ol{margin:0;padding:0;list-style:none}
 <nav class="dock" id="dock" aria-label="Các phần của trang">
   <div class="dock-s" id="dock-s">
     <span class="pill" aria-hidden="true"></span>
-    <a href="#loi-ich" data-k="0">Lợi ích</a>
-    <a href="#cach-lam" data-k="1">Cách làm</a>
+    <a href="#co-hoi" data-k="0">Lợi ích</a>
+    <a href="#ba-lop" data-k="1">Cách làm</a>
     <a href="#giai-phap" data-k="2">Giải pháp</a>
     <a href="#bang-gia" data-k="3">Bảng giá</a>
     <a href="#checklist" data-k="4">Checklist</a>
@@ -981,13 +950,13 @@ ul,ol{margin:0;padding:0;list-style:none}
   <a class="call" href="tel:0856218686" aria-label="Gọi NEXA: 0856 218 686"><svg class="ic"><use href="#i-phone"/></svg><span>Liên hệ ngay</span></a>
 </nav>
 
-<main id="top">
+<main>
 <!-- ============ HERO · A: the AI answer is typed, streamed and lands on "your website" ============ -->
-<section class="hero dk" id="hero" aria-labelledby="h-hero">
+<section class="hero dk" id="top" aria-labelledby="h-hero">
   <div class="h-grid" aria-hidden="true"></div>
   <div class="wrap h-g">
     <div>
-      <nav class="crumb" aria-label="Vị trí trang" data-f><a href="../nexa-solution/">Trang chủ</a><i aria-hidden="true">/</i><a href="../nexa-b2b/">Marketing B2B</a><i aria-hidden="true">/</i><b aria-current="page">Dịch vụ SEO</b></nav>
+      <nav class="crumb" aria-label="Đường dẫn" data-f><a href="../nexa-solution/">Trang chủ</a><i aria-hidden="true">/</i><a href="../nexa-b2b/">Marketing B2B</a><i aria-hidden="true">/</i><b aria-current="page">Dịch vụ SEO</b></nav>
       <p class="eyebrow" data-f style="--d:60ms">Dịch vụ SEO · AIO · GEO</p>
       <h1 class="h1 sp" id="h-hero">SEO, AIO, GEO: để doanh nghiệp B2B <span class="or">được tìm thấy và được AI nhắc tên</span></h1>
       <p class="lead" data-f style="--d:380ms">Nội dung chuẩn SEO, tối ưu để hiện trong AI Overview và trong câu trả lời của các AI chatbot, kèm cam kết số page và số responses theo từng gói.</p>
@@ -999,8 +968,8 @@ ul,ol{margin:0;padding:0;list-style:none}
       <div class="h-cta" data-f style="--d:540ms"><a class="btn" href="#lien-he">Nhận tư vấn <span class="ar"><svg class="ic"><use href="#i-arrow"/></svg><svg class="ic"><use href="#i-arrow"/></svg></span></a><a class="gh" href="#bang-gia">Xem bảng giá</a></div>
     </div>
     <div class="ai-w" data-f style="--d:250ms">
-      <div class="ai" id="ai">
-        <div class="ai-top"><i></i><i></i><i></i><span>Trợ lý tìm kiếm AI · minh họa</span><button class="ai-rp" id="ai-rp" type="button" aria-label="Chạy lại minh họa"><svg class="ic"><use href="#i-play"/></svg></button></div>
+      <div class="ai" id="ai" role="img" aria-label="Minh họa: gõ câu hỏi tìm nhà sản xuất thiết bị thủy lực uy tín, AI trả lời và gợi ý website của bạn">
+        <div class="ai-top"><i></i><i></i><i></i><span>Trợ lý tìm kiếm AI · minh họa</span></div>
         <div class="ai-q"><svg class="ic"><use href="#i-search"/></svg><span id="ai-q" data-q="nhà sản xuất uy tín thiết bị thủy lực">nhà sản xuất uy tín thiết bị thủy lực</span><i class="caret" aria-hidden="true"></i></div>
         <div class="ai-ov" aria-live="off">
           <p class="ai-h"><svg class="ic"><use href="#i-spark"/></svg>Tổng quan từ AI</p>
@@ -1025,7 +994,7 @@ ul,ol{margin:0;padding:0;list-style:none}
 </section>
 
 <!-- ============ BENEFITS · B: cards open from the grid's centre outwards ============ -->
-<section class="lt sec" id="loi-ich" aria-labelledby="h-bn">
+<section class="lt sec" id="co-hoi" aria-labelledby="h-bn">
   <div class="wrap">
     <p class="lbl" data-f>Lợi ích</p>
     <div class="sec-h">
@@ -1058,16 +1027,14 @@ ul,ol{margin:0;padding:0;list-style:none}
         <p class="bub ba" data-depth="2">Mình cùng rà lại website và ngành hàng của bạn nhé.</p>
       </figure>
       <div>
-        <p class="sg-hint" data-f><svg class="ic"><use href="#i-hand"/></svg>Bấm để đánh dấu dấu hiệu bạn đang gặp</p>
-        <div class="sg-l" id="sg-l">
-          <button class="sg-i" type="button" aria-pressed="false" style="--k:0"><span class="bx" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5 10 17 19 7" pathLength="1"/></svg></span><span>Khách tìm đúng sản phẩm của bạn nhưng website không xuất hiện trên Google.</span></button>
-          <button class="sg-i" type="button" aria-pressed="false" style="--k:1"><span class="bx" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5 10 17 19 7" pathLength="1"/></svg></span><span>Hỏi AI về ngành hàng của bạn nhưng thương hiệu không được nhắc tên.</span></button>
-          <button class="sg-i" type="button" aria-pressed="false" style="--k:2"><span class="bx" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5 10 17 19 7" pathLength="1"/></svg></span><span>Website có lượt truy cập nhưng rất ít khách để lại thông tin liên hệ.</span></button>
-          <button class="sg-i" type="button" aria-pressed="false" style="--k:3"><span class="bx" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5 10 17 19 7" pathLength="1"/></svg></span><span>Chi phí quảng cáo tăng dần, doanh nghiệp phụ thuộc vào quảng cáo để có khách.</span></button>
-        </div>
+        <ul class="sg-l" id="sg-l">
+          <li class="sg-i" style="--k:0"><span class="bx" aria-hidden="true"></span><span>Khách tìm đúng sản phẩm của bạn nhưng website không xuất hiện trên Google.</span></li>
+          <li class="sg-i" style="--k:1"><span class="bx" aria-hidden="true"></span><span>Hỏi AI về ngành hàng của bạn nhưng thương hiệu không được nhắc tên.</span></li>
+          <li class="sg-i" style="--k:2"><span class="bx" aria-hidden="true"></span><span>Website có lượt truy cập nhưng rất ít khách để lại thông tin liên hệ.</span></li>
+          <li class="sg-i" style="--k:3"><span class="bx" aria-hidden="true"></span><span>Chi phí quảng cáo tăng dần, doanh nghiệp phụ thuộc vào quảng cáo để có khách.</span></li>
+        </ul>
         <div class="sg-r" data-f>
           <a class="btn" href="#lien-he">Nhận tư vấn về website của bạn <span class="ar"><svg class="ic"><use href="#i-arrow"/></svg><svg class="ic"><use href="#i-arrow"/></svg></span></a>
-          <p id="sg-msg" aria-live="polite">Chọn những dấu hiệu website của bạn đang gặp.</p>
         </div>
       </div>
     </div>
@@ -1075,7 +1042,7 @@ ul,ol{margin:0;padding:0;list-style:none}
 </section>
 
 <!-- ============ LAYERS · D: pinned, three glass plates drop onto one content base ============ -->
-<section class="dk ly" id="cach-lam" aria-labelledby="h-ly">
+<section class="dk ly" id="ba-lop" aria-labelledby="h-ly">
   <div class="ly-in">
     <div class="wrap">
       <div class="ctr ly-h">
@@ -1085,11 +1052,11 @@ ul,ol{margin:0;padding:0;list-style:none}
       </div>
       <div class="ly-g">
         <div class="stk" id="stk" aria-hidden="true">
-          <div class="base"><span>Nền tảng nội dung</span></div>
+          <div class="base"></div>
           <div class="plate" style="--i:0"><div class="sd"></div><div class="fc"><b>SEO</b></div><div class="rp"></div></div>
           <div class="plate" style="--i:1"><div class="sd"></div><div class="fc"><b>AIO</b></div><div class="rp"></div></div>
           <div class="plate" style="--i:2"><div class="sd"></div><div class="fc"><b>GEO</b></div><div class="rp"></div></div>
-          <div class="beam"><i></i><span>Được AI nhắc tên</span></div>
+          <div class="beam"><i></i></div>
         </div>
         <div class="lyc" id="lyc">
           <article class="lc"><small>Lớp 1</small><h3>SEO nền tảng</h3><div class="lx"><div><b>Content nền tảng</b><p>Nội dung phù hợp chuyển đổi khách hàng, chuẩn SEO và là nền để phát triển AIO và GEO.</p></div></div></article>
@@ -1107,13 +1074,11 @@ ul,ol{margin:0;padding:0;list-style:none}
     <p class="lbl" data-f>Giải pháp</p>
     <div class="sec-h">
       <h2 class="h2 sp" id="h-sl">Bốn nhóm việc cùng chạy để thương hiệu được tìm thấy và được trích dẫn</h2>
-      <p class="lead" data-f style="--d:200ms">Research, content, kỹ thuật On Page và Off Page đi cùng một lộ trình, mỗi nhóm việc bổ trợ cho nhóm còn lại.</p>
     </div>
     <div class="sl-g">
       <div class="sl-list">
         <article class="sl" id="sl-1">
           <figure class="sl-m" style="--bg:#EAF1FD"><img src="assets/seo-research.webp" alt="Chuyên viên NEXA giới thiệu nghiên cứu keyword, xu hướng SEO, AIO, GEO và FAQ tối ưu AI search" width="1400" height="788" loading="lazy"></figure>
-          <p class="k">Hiểu khách hàng</p>
           <h3>Research</h3>
           <p>Hiểu khách hàng B2B tìm gì và hỏi AI điều gì trước khi viết bài đầu tiên.</p>
           <ul><li><svg class="ic"><use href="#i-check"/></svg><span>Phân tích xu hướng tìm kiếm SEO, AIO và GEO</span></li><li><svg class="ic"><use href="#i-check"/></svg><span>Nghiên cứu keyword tiềm năng</span></li><li><svg class="ic"><use href="#i-check"/></svg><span>Nghiên cứu FAQ (câu hỏi thường gặp), tối ưu cho AI search</span></li></ul>
@@ -1121,7 +1086,6 @@ ul,ol{margin:0;padding:0;list-style:none}
         </article>
         <article class="sl" id="sl-2">
           <figure class="sl-m" style="--bg:#EEF4FF"><img src="assets/seo-content.webp" alt="Chuyên viên NEXA cùng các biểu tượng video, hình ảnh, website và tài liệu nội dung" width="1000" height="1000" loading="lazy"></figure>
-          <p class="k">Nội dung ba lớp</p>
           <h3>Content SEO, AIO, GEO</h3>
           <p>Nội dung nền tảng làm gốc, rồi tối ưu thêm cho từng lớp để cùng một chủ đề phục vụ cả ba kênh.</p>
           <ul><li><svg class="ic"><use href="#i-check"/></svg><span>Content nền tảng phù hợp chuyển đổi khách hàng, chuẩn SEO</span></li><li><svg class="ic"><use href="#i-check"/></svg><span>Lớp Cấu Trúc Trung Tâm: tối ưu content cho AIO (The AEO Structure)</span></li><li><svg class="ic"><use href="#i-check"/></svg><span>Lớp Kiến Trúc Nâng Cao: tối ưu content cho GEO (GEO Top)</span></li></ul>
@@ -1129,7 +1093,6 @@ ul,ol{margin:0;padding:0;list-style:none}
         </article>
         <article class="sl" id="sl-3">
           <figure class="sl-m cv" style="--bg:#DDE4EE"><img src="assets/seo-onpage.jpg" alt="Nhóm đồng nghiệp vui mừng khi xem kết quả tối ưu kỹ thuật website trên màn hình" width="1000" height="667" loading="lazy"></figure>
-          <p class="k">Trên website</p>
           <h3>Kỹ thuật On Page</h3>
           <p>Giúp cả người dùng và bot AI đọc, hiểu và trích dẫn được nội dung trên website.</p>
           <ul><li><svg class="ic"><use href="#i-check"/></svg><span>Mở khóa web cho các bot huấn luyện AI (AI training bot policy)</span></li><li><svg class="ic"><use href="#i-check"/></svg><span>Tối ưu khả năng đọc của máy, khai báo Schema để phân loại dữ liệu</span></li><li><svg class="ic"><use href="#i-check"/></svg><span>Blockquote điểm trích dẫn nổi bật và cấu trúc web thuận lợi cho người dùng và bot</span></li></ul>
@@ -1137,7 +1100,6 @@ ul,ol{margin:0;padding:0;list-style:none}
         </article>
         <article class="sl" id="sl-4">
           <figure class="sl-m" style="--bg:#FFFFFF"><img src="assets/seo-offpage.webp" alt="Chuyên viên NEXA cầm máy tính bảng, bên cạnh là các khối quảng cáo đa kênh, phủ sóng thị trường và tìm kiếm khách hàng tiềm năng" width="900" height="1599" loading="lazy"></figure>
-          <p class="k">Ngoài website</p>
           <h3>Kỹ thuật Off Page</h3>
           <p>Thêm tín hiệu từ bên ngoài để website và thương hiệu được tin cậy hơn trong mắt công cụ tìm kiếm và AI.</p>
           <ul><li><svg class="ic"><use href="#i-check"/></svg><span>Bài báo chất lượng (vnexpress, dantri, 24h...) giúp tăng trust cho website và thương hiệu</span></li><li><svg class="ic"><use href="#i-check"/></svg><span>SEO Entity off page và backlink từ PBN</span></li><li><svg class="ic"><use href="#i-check"/></svg><span>Tín hiệu từ traffic (Google Ads, LinkedIn) và từ các mạng xã hội của thương hiệu</span></li></ul>
@@ -1199,7 +1161,7 @@ ul,ol{margin:0;padding:0;list-style:none}
           <li><svg class="ic"><use href="#i-check"/></svg><span><b>Kỹ thuật On Page</b> 80/100 cho bot AI và khả năng đọc của máy</span></li>
           <li><svg class="ic"><use href="#i-check"/></svg><span><b>Off Page:</b> 1 bài báo chất lượng, 5 backlink PBN, entity, tín hiệu traffic và social</span></li>
         </ul>
-        <a class="btn" href="#lien-he" data-pkg="1">Nhận báo giá Gói 1 <span class="ar"><svg class="ic"><use href="#i-arrow"/></svg><svg class="ic"><use href="#i-arrow"/></svg></span></a>
+        <a class="btn" href="#lien-he">Nhận báo giá Gói 1 <span class="ar"><svg class="ic"><use href="#i-arrow"/></svg><svg class="ic"><use href="#i-arrow"/></svg></span></a>
       </article>
       <article class="pc3" style="--k:1">
         <p class="tag">Cao cấp</p>
@@ -1212,7 +1174,7 @@ ul,ol{margin:0;padding:0;list-style:none}
           <li><svg class="ic"><use href="#i-check"/></svg><span><b>Kỹ thuật On Page</b> 90/100 cho bot AI và khả năng đọc của máy</span></li>
           <li><svg class="ic"><use href="#i-check"/></svg><span><b>Off Page:</b> 1 bài báo chất lượng, 5 backlink PBN, entity, tín hiệu traffic và social</span></li>
         </ul>
-        <a class="btn" href="#lien-he" data-pkg="2">Nhận báo giá Gói 2 <span class="ar"><svg class="ic"><use href="#i-arrow"/></svg><svg class="ic"><use href="#i-arrow"/></svg></span></a>
+        <a class="btn" href="#lien-he">Nhận báo giá Gói 2 <span class="ar"><svg class="ic"><use href="#i-arrow"/></svg><svg class="ic"><use href="#i-arrow"/></svg></span></a>
       </article>
       <article class="pc3 hot" style="--k:2">
         <p class="tag">Mức cam kết cao nhất</p>
@@ -1225,7 +1187,7 @@ ul,ol{margin:0;padding:0;list-style:none}
           <li><svg class="ic"><use href="#i-check"/></svg><span><b>Kỹ thuật On Page</b> 96/100 cho bot AI và khả năng đọc của máy</span></li>
           <li><svg class="ic"><use href="#i-check"/></svg><span><b>Off Page:</b> 1 bài báo chất lượng, 5 backlink PBN, entity, tín hiệu traffic và social</span></li>
         </ul>
-        <a class="btn" href="#lien-he" data-pkg="3">Nhận báo giá Gói 3 <span class="ar"><svg class="ic"><use href="#i-arrow"/></svg><svg class="ic"><use href="#i-arrow"/></svg></span></a>
+        <a class="btn" href="#lien-he">Nhận báo giá Gói 3 <span class="ar"><svg class="ic"><use href="#i-arrow"/></svg><svg class="ic"><use href="#i-arrow"/></svg></span></a>
       </article>
     </div>
     <p class="pr-n" data-f>Hạng mục và số lượng chi tiết được thống nhất trong báo giá chính thức trước khi triển khai.</p>
@@ -1241,9 +1203,9 @@ ul,ol{margin:0;padding:0;list-style:none}
       <p class="lead" data-f style="--d:200ms">Dấu tích nghĩa là hạng mục có trong gói. Số là khối lượng hoặc mức cam kết của gói đó.</p>
     </div>
     <div class="ck-w" data-f>
-      <div class="ck-tabs" role="tablist" aria-label="Chọn gói để xem"><button type="button" role="tab" aria-selected="true" data-pkg="1">Gói 1<small>10 triệu/tháng</small></button><button type="button" role="tab" aria-selected="false" data-pkg="2">Gói 2<small>12 triệu/tháng</small></button><button type="button" role="tab" aria-selected="false" data-pkg="3">Gói 3<small>16 triệu/tháng</small></button></div>
+      <div class="ck-tabs" role="tablist" aria-label="Chọn gói để xem"><button type="button" role="tab" aria-selected="true" data-pkg="1">Gói 1<small>10.000.000 đ/tháng</small></button><button type="button" role="tab" aria-selected="false" data-pkg="2">Gói 2<small>12.000.000 đ/tháng</small></button><button type="button" role="tab" aria-selected="false" data-pkg="3">Gói 3<small>16.000.000 đ/tháng</small></button></div>
       <table class="ck-t" id="ck-t" data-pkg="1">
-        <caption>Checklist hạng mục và bảng giá ba gói SEO, AIO, GEO</caption>
+        <caption>Checklist hạng mục và bảng giá ba gói SEO / AIO / GEO</caption>
         <thead><tr><th scope="col">Đầu mục triển khai</th><th scope="col">Đơn vị tính</th><th scope="col" class="pk p1" data-c="1"><b>Gói 1</b><small>10.000.000 đ/tháng</small></th><th scope="col" class="pk p2" data-c="2"><b>Gói 2</b><small>12.000.000 đ/tháng</small></th><th scope="col" class="pk p3" data-c="3"><b>Gói 3</b><small>16.000.000 đ/tháng</small></th></tr></thead>
         <tbody>
           <tr class="grp"><th colspan="5" scope="colgroup">Cam kết</th></tr>
@@ -1260,7 +1222,7 @@ ul,ol{margin:0;padding:0;list-style:none}
         </tbody>
         <tbody>
           <tr class="grp"><th colspan="5" scope="colgroup">Content SEO / AIO / GEO</th></tr>
-          <tr style="--r:0"><th scope="row">Content nền tảng<small>Phù hợp chuyển đổi khách hàng · Chuẩn SEO · Làm nền tảng để phát triển AIO / GEO</small><span class="un">Bài</span></th><td class="u">Bài</td><td class="p p1" data-c="1"><span>15</span></td><td class="p p2" data-c="2"><span>20</span></td><td class="p p3" data-c="3"><span>25</span></td></tr>
+          <tr style="--r:0"><th scope="row">Content nền tảng<small>Phù hợp chuyển đổi khách hàng<br>Chuẩn SEO<br>Làm nền tảng để phát triển AIO / GEO</small><span class="un">Bài</span></th><td class="u">Bài</td><td class="p p1" data-c="1"><span>15</span></td><td class="p p2" data-c="2"><span>20</span></td><td class="p p3" data-c="3"><span>25</span></td></tr>
           <tr style="--r:1"><th scope="row">Lớp Cấu Trúc Trung Tâm: The AEO Structure<small>Tối ưu content cho AIO</small><span class="un">Bài</span></th><td class="u">Bài</td><td class="p p1" data-c="1"><span>15</span></td><td class="p p2" data-c="2"><span>20</span></td><td class="p p3" data-c="3"><span>25</span></td></tr>
           <tr style="--r:2"><th scope="row">Lớp Kiến Trúc Nâng Cao: GEO Top<small>Tối ưu content cho GEO</small><span class="un">Bài</span></th><td class="u">Bài</td><td class="p p1" data-c="1"><span>15</span></td><td class="p p2" data-c="2"><span>20</span></td><td class="p p3" data-c="3"><span>25</span></td></tr>
         </tbody>
@@ -1270,7 +1232,7 @@ ul,ol{margin:0;padding:0;list-style:none}
           <tr style="--r:1"><th scope="row">Tối ưu khả năng đọc của máy (Machine readability)<span class="un">Công việc kỹ thuật</span></th><td class="u">Công việc kỹ thuật</td><td class="p p1" data-c="1"><span>80/100</span></td><td class="p p2" data-c="2"><span>90/100</span></td><td class="p p3" data-c="3"><span>96/100</span></td></tr>
           <tr style="--r:2"><th scope="row">Khai báo Schema tăng khả năng đọc của máy và phân loại dữ liệu<span class="un">Công việc kỹ thuật</span></th><td class="u">Công việc kỹ thuật</td><td class="p p1" data-c="1"><span class="yes" style="--q:0"><svg class="ic"><use href="#i-check"/></svg><span class="vh">Có</span></span></td><td class="p p2" data-c="2"><span class="yes" style="--q:1"><svg class="ic"><use href="#i-check"/></svg><span class="vh">Có</span></span></td><td class="p p3" data-c="3"><span class="yes" style="--q:2"><svg class="ic"><use href="#i-check"/></svg><span class="vh">Có</span></span></td></tr>
           <tr style="--r:3"><th scope="row">Blockquote: điểm trích dẫn nổi bật<span class="un">Công việc kỹ thuật</span></th><td class="u">Công việc kỹ thuật</td><td class="p p1" data-c="1"><span class="yes" style="--q:0"><svg class="ic"><use href="#i-check"/></svg><span class="vh">Có</span></span></td><td class="p p2" data-c="2"><span class="yes" style="--q:1"><svg class="ic"><use href="#i-check"/></svg><span class="vh">Có</span></span></td><td class="p p3" data-c="3"><span class="yes" style="--q:2"><svg class="ic"><use href="#i-check"/></svg><span class="vh">Có</span></span></td></tr>
-          <tr style="--r:4"><th scope="row">Cấu trúc web thuận lợi cho người dùng và bot<span class="un">Công việc kỹ thuật</span></th><td class="u">Công việc kỹ thuật</td><td class="p p1" data-c="1"><span class="na" aria-label="Không áp dụng">—</span></td><td class="p p2" data-c="2"><span class="na" aria-label="Không áp dụng">—</span></td><td class="p p3" data-c="3"><span class="na" aria-label="Không áp dụng">—</span></td></tr>
+          <tr style="--r:4"><th scope="row">Cấu trúc web thuận lợi cho người dùng và bot<span class="un">Công việc kỹ thuật</span></th><td class="u">Công việc kỹ thuật</td><td class="p p1" data-c="1"><span class="na" aria-label="Chưa có dữ liệu">—</span></td><td class="p p2" data-c="2"><span class="na" aria-label="Chưa có dữ liệu">—</span></td><td class="p p3" data-c="3"><span class="na" aria-label="Chưa có dữ liệu">—</span></td></tr>
         </tbody>
         <tbody>
           <tr class="grp"><th colspan="5" scope="colgroup">Kỹ thuật Off Page</th></tr>
@@ -1290,23 +1252,22 @@ ul,ol{margin:0;padding:0;list-style:none}
   </div>
 </section>
 
-<!-- ============ CONSULT · I: the question is typed, sent and answered ============ -->
+<!-- ============ CONSULT · I: photo settles onto its back plate, the question pops, the answer streams ============ -->
 <section class="lt sec" id="tu-van" aria-labelledby="h-cs">
   <div class="wrap cs-g">
-    <div class="chat" id="chat" data-f>
-      <div class="chat-h"><img src="assets/seo-content.webp" alt="" width="1000" height="1000" loading="lazy"><div><b>Chuyên viên NEXA</b><small>Đang trực tuyến</small></div><em>Minh họa</em></div>
-      <div class="chat-b" id="chat-b">
-        <p class="m-u" id="m-u">Website của tôi nên bắt đầu với gói nào?</p>
-        <p class="m-t" id="m-t" aria-hidden="true"><i></i><i></i><i></i></p>
-        <p class="m-n" id="m-n">Bạn cho NEXA biết website, ngành hàng và mục tiêu. Chúng tôi sẽ đề xuất gói phù hợp và thống nhất bằng văn bản trước khi triển khai.</p>
-      </div>
-      <a class="chat-in" id="chat-in" href="#lien-he" aria-label="Đặt câu hỏi cho chuyên viên NEXA"><span id="chat-tx">Hỏi chuyên viên NEXA…</span><i><svg class="ic"><use href="#i-send"/></svg></i></a>
-    </div>
+    <figure class="cs-ph" id="cs-ph">
+      <img src="assets/seo-content.webp" alt="Chuyên viên tư vấn NEXA cùng các biểu tượng video, hình ảnh, website, nội dung" width="1000" height="1000" loading="lazy">
+      <figcaption><i aria-hidden="true"></i>Chuyên viên NEXA</figcaption>
+    </figure>
     <div class="cs-r">
       <p class="lbl" data-f>Tư vấn cùng NEXA</p>
       <h2 class="h2 sp" id="h-cs" style="margin-top:22px">Chưa biết chọn gói nào? Hãy trao đổi cùng chuyên viên</h2>
       <p class="lead" data-f style="--d:200ms">Mỗi website và mỗi ngành hàng có điểm xuất phát khác nhau. Chuyên viên NEXA sẽ lắng nghe mục tiêu của bạn, rồi đề xuất gói và hạng mục phù hợp.</p>
-      <div class="row2" data-f style="--d:280ms"><a class="btn" href="#lien-he">Trao đổi với chuyên viên <span class="ar"><svg class="ic"><use href="#i-arrow"/></svg><svg class="ic"><use href="#i-arrow"/></svg></span></a><small>NEXA phản hồi trong 24 giờ làm việc.</small></div>
+      <div class="chat-b" id="chat">
+        <p class="m-u" id="m-u">Website của tôi nên bắt đầu với gói nào?</p>
+        <div class="m-w"><p class="m-t" id="m-t" aria-hidden="true"><i></i><i></i><i></i></p><p class="m-n" id="m-n">Bạn cho NEXA biết website, ngành hàng và mục tiêu. Chúng tôi sẽ đề xuất gói phù hợp và thống nhất bằng văn bản trước khi triển khai.</p></div>
+      </div>
+      <div class="row2" data-f style="--d:120ms"><a class="btn" href="#lien-he">Trao đổi với chuyên viên <span class="ar"><svg class="ic"><use href="#i-arrow"/></svg><svg class="ic"><use href="#i-arrow"/></svg></span></a><small>NEXA phản hồi trong 24 giờ làm việc.</small></div>
     </div>
   </div>
 </section>
@@ -1345,42 +1306,41 @@ ul,ol{margin:0;padding:0;list-style:none}
     <p class="lbl" data-f>Quy trình</p>
     <div class="sec-h">
       <h2 class="h2 sp" id="h-ps">Năm bước từ tư vấn đến theo dõi cam kết</h2>
-      <p class="lead" data-f style="--d:200ms">Hai bước đầu để hiểu nhu cầu và thống nhất phương án, ba bước sau để triển khai và theo dõi theo cam kết.</p>
     </div>
     <div class="ps-w" id="ps-w">
       <div class="ps-ph"><div><b>Trước khi hợp tác</b><span>Hiểu nhu cầu và thống nhất phương án</span></div><div><b>Sau khi hợp tác</b><span>Triển khai và theo dõi theo cam kết</span></div></div>
       <div class="ps-tr" aria-hidden="true"><span class="ps-ln"><i></i><b></b></span><span class="ps-nd">1</span><span class="ps-nd">2</span><span class="ps-nd">3</span><span class="ps-nd">4</span><span class="ps-nd">5</span></div>
       <ol class="ps-g">
-        <li class="ps" data-n="1"><p class="pm"><b>Trước khi hợp tác</b>Hiểu nhu cầu và thống nhất phương án</p><small>Bước 1</small><h3>Tiếp nhận và tư vấn</h3><p>NEXA tìm hiểu website, ngành hàng và mục tiêu kinh doanh của doanh nghiệp.</p></li>
-        <li class="ps" data-n="2"><small>Bước 2</small><h3>Đề xuất gói phù hợp</h3><p>Chọn gói và thống nhất hạng mục, mức cam kết bằng văn bản.</p></li>
-        <li class="ps" data-n="3"><p class="pm"><b>Sau khi hợp tác</b>Triển khai và theo dõi theo cam kết</p><small>Bước 3</small><h3>Nghiên cứu</h3><p>Phân tích xu hướng tìm kiếm, keyword tiềm năng và bộ FAQ tối ưu cho AI search.</p></li>
-        <li class="ps" data-n="4"><small>Bước 4</small><h3>Triển khai nội dung và kỹ thuật</h3><p>Viết content SEO, AIO, GEO; xử lý On Page; triển khai báo chí, backlink, traffic, social.</p></li>
-        <li class="ps" data-n="5"><small>Bước 5</small><h3>Theo dõi cam kết</h3><p>Đối chiếu số page và responses đã cam kết, điều chỉnh để mở rộng kết quả.</p></li>
+        <li class="ps" data-n="1"><p class="pm"><b>Trước khi hợp tác</b>Hiểu nhu cầu và thống nhất phương án</p><h3>Tiếp nhận và tư vấn</h3><p>NEXA tìm hiểu website, ngành hàng và mục tiêu kinh doanh của doanh nghiệp.</p></li>
+        <li class="ps" data-n="2"><h3>Đề xuất gói phù hợp</h3><p>Chọn gói và thống nhất hạng mục, mức cam kết bằng văn bản.</p></li>
+        <li class="ps" data-n="3"><p class="pm"><b>Sau khi hợp tác</b>Triển khai và theo dõi theo cam kết</p><h3>Nghiên cứu</h3><p>Phân tích xu hướng tìm kiếm, keyword tiềm năng và bộ FAQ tối ưu cho AI search.</p></li>
+        <li class="ps" data-n="4"><h3>Triển khai nội dung và kỹ thuật</h3><p>Viết content SEO, AIO, GEO; xử lý On Page; triển khai báo chí, backlink, traffic, social.</p></li>
+        <li class="ps" data-n="5"><h3>Theo dõi cam kết</h3><p>Đối chiếu số page và responses đã cam kết, điều chỉnh để mở rộng kết quả.</p></li>
       </ol>
     </div>
   </div>
 </section>
 
-<!-- ============ WHY NEXA · L: bento tiles slide out of their own edge, logo strip runs ============ -->
+<!-- ============ WHY NEXA · L: bento tiles slide out of their own edge ============ -->
 <section class="wh sec" id="vi-sao" aria-labelledby="h-wy">
   <div class="wrap">
     <p class="lbl" data-f>Vì sao NEXA</p>
     <div class="sec-h">
       <h2 class="h2 sp" id="h-wy">Media và công nghệ trong cùng một đội</h2>
-      <p class="lead" data-f style="--d:200ms">Nội dung, báo chí, quảng cáo và kỹ thuật website cùng một đầu mối, theo cùng một mức cam kết.</p>
     </div>
     <div class="wy-g" id="wy-g">
-      <div class="wy-big" style="--d:0ms"><img class="lnx" src="assets/lines-x.webp" alt="" width="1400" height="932" loading="lazy"><img class="xm" src="assets/x.webp" alt="" width="700" height="689" loading="lazy"><small>NEXA Solution</small><h3>Đồng hành cùng doanh nghiệp</h3><p>Từ lúc tư vấn đến khi theo dõi cam kết.</p></div>
+      <div class="wy-big" style="--d:0ms"><img src="assets/seo-onpage.jpg" alt="Nhóm đồng nghiệp vui mừng khi xem kết quả trên màn hình máy tính" width="1000" height="667" loading="lazy"><h3>Đồng hành cùng doanh nghiệp</h3><p>Từ lúc tư vấn đến khi theo dõi cam kết.</p></div>
       <div class="wy" style="--d:120ms"><span class="wi"><svg class="ic"><use href="#i-layers"/></svg></span><h3>Một gói cho SEO, AIO và GEO</h3><p>Cùng nền tảng nội dung và kỹ thuật, doanh nghiệp không phải mua ba dịch vụ rời rạc.</p></div>
       <div class="wy" style="--d:230ms"><span class="wi"><svg class="ic"><use href="#i-globe"/></svg></span><h3>Nội dung, báo chí và kỹ thuật phối hợp</h3><p>Content, bài báo, quảng cáo và kỹ thuật website do cùng một đội điều phối.</p></div>
       <div class="wy" style="--d:340ms"><span class="wi"><svg class="ic"><use href="#i-shield"/></svg></span><h3>Tăng uy tín từ bên ngoài</h3><p>Bài báo chất lượng, entity, backlink, tín hiệu traffic và social đi kèm trong gói.</p></div>
       <div class="wy" style="--d:450ms"><span class="wi"><svg class="ic"><use href="#i-target"/></svg></span><h3>Cam kết bằng con số</h3><p>Số page và số responses cho AI Overview và GEO được nêu rõ theo từng gói.</p></div>
     </div>
-    <div class="mq">
-      <p data-f>Doanh nghiệp đã đồng hành cùng NEXA</p>
-      <div class="mq-v"><ul class="mq-t"><li><img src="assets/l-congdanh.webp" alt="Công Danh" width="348" height="94" loading="lazy"></li><li><img src="assets/l-firetech.webp" alt="FireTech" width="122" height="168" loading="lazy"></li><li><img src="assets/l-vmrc.webp" alt="VMRC" width="138" height="40" loading="lazy"></li><li><img src="assets/l-vinacolour.webp" alt="Vina Colour" width="281" height="117" loading="lazy"></li><li><img src="assets/l-marbox.webp" alt="Marbox" width="380" height="71" loading="lazy"></li><li><img src="assets/l-hoanmy.webp" alt="Hoàn Mỹ Hotel Supply" width="210" height="156" loading="lazy"></li><li aria-hidden="true"><img src="assets/l-congdanh.webp" alt="" width="348" height="94" loading="lazy"></li><li aria-hidden="true"><img src="assets/l-firetech.webp" alt="" width="122" height="168" loading="lazy"></li><li aria-hidden="true"><img src="assets/l-vmrc.webp" alt="" width="138" height="40" loading="lazy"></li><li aria-hidden="true"><img src="assets/l-vinacolour.webp" alt="" width="281" height="117" loading="lazy"></li><li aria-hidden="true"><img src="assets/l-marbox.webp" alt="" width="380" height="71" loading="lazy"></li><li aria-hidden="true"><img src="assets/l-hoanmy.webp" alt="" width="210" height="156" loading="lazy"></li></ul></div>
-    </div>
   </div>
+</section>
+
+<!-- ============ CLIENTS: logo strip ============ -->
+<section class="wh kh" id="khach-hang">
+  <div class="wrap"><div class="mq-v"><ul class="mq-t"><li><img src="assets/l-congdanh.webp" alt="Công Danh" width="348" height="94" loading="lazy"></li><li><img src="assets/l-firetech.webp" alt="FireTech" width="122" height="168" loading="lazy"></li><li><img src="assets/l-vmrc.webp" alt="VMRC" width="138" height="40" loading="lazy"></li><li><img src="assets/l-vinacolour.webp" alt="Vina Colour" width="281" height="117" loading="lazy"></li><li><img src="assets/l-marbox.webp" alt="Marbox" width="380" height="71" loading="lazy"></li><li><img src="assets/l-hoanmy.webp" alt="Hoàn Mỹ Hotel Supply" width="210" height="156" loading="lazy"></li><li aria-hidden="true"><img src="assets/l-congdanh.webp" alt="" width="348" height="94" loading="lazy"></li><li aria-hidden="true"><img src="assets/l-firetech.webp" alt="" width="122" height="168" loading="lazy"></li><li aria-hidden="true"><img src="assets/l-vmrc.webp" alt="" width="138" height="40" loading="lazy"></li><li aria-hidden="true"><img src="assets/l-vinacolour.webp" alt="" width="281" height="117" loading="lazy"></li><li aria-hidden="true"><img src="assets/l-marbox.webp" alt="" width="380" height="71" loading="lazy"></li><li aria-hidden="true"><img src="assets/l-hoanmy.webp" alt="" width="210" height="156" loading="lazy"></li></ul></div></div>
 </section>
 
 <!-- ============ FAQ · M: accordion beside a sticky heading ============ -->
@@ -1411,7 +1371,6 @@ ul,ol{margin:0;padding:0;list-style:none}
         <h2 class="h2 sp" id="h-ct">Cho NEXA biết website và ngành hàng của bạn</h2>
         <p class="lead" data-f style="--d:200ms">NEXA phản hồi với đề xuất sơ bộ và gói SEO / AIO / GEO phù hợp với doanh nghiệp của bạn.</p>
         <div class="dl" data-f style="--d:260ms"><a class="gh" href="#lien-he" data-doc="profile"><svg class="ic"><use href="#i-down"/></svg>Tải hồ sơ năng lực</a><a class="gh" href="#lien-he" data-doc="quote"><svg class="ic"><use href="#i-down"/></svg>Tải báo giá</a></div>
-        <div class="dir" data-f style="--d:320ms"><a href="tel:0856218686"><svg class="ic"><use href="#i-phone"/></svg>Liên hệ ngay · 0856 218 686</a><a href="mailto:nexa.solutionvn@gmail.com"><svg class="ic"><use href="#i-mail"/></svg>nexa.solutionvn@gmail.com</a></div>
       </div>
       <div class="form" id="form-box" data-f style="--d:150ms">
         <form id="contact-form" novalidate>
@@ -1419,8 +1378,7 @@ ul,ol{margin:0;padding:0;list-style:none}
             <div class="fd"><label for="f-name">Họ tên</label><input id="f-name" name="name" type="text" autocomplete="name" required><span class="ln"></span><span class="em">Vui lòng nhập họ tên.</span></div>
             <div class="fd"><label for="f-phone">Số điện thoại</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required><span class="ln"></span><span class="em">Vui lòng nhập số điện thoại hợp lệ.</span></div>
             <div class="fd full"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email"><span class="ln"></span><span class="em">Email chưa đúng định dạng.</span></div>
-            <div class="fd full pk"><label for="f-pkg">Gói quan tâm</label><select id="f-pkg" name="package"><option value="">Chưa chọn, cần NEXA tư vấn</option><option value="1">Gói 1 · 10.000.000 đ/tháng</option><option value="2">Gói 2 · 12.000.000 đ/tháng</option><option value="3">Gói 3 · 16.000.000 đ/tháng</option></select><span class="ln"></span></div>
-            <div class="fd full"><label for="f-goal">Website, sản phẩm và ngành hàng</label><textarea id="f-goal" name="goal" rows="2"></textarea><span class="ln"></span></div>
+            <div class="fd full"><label for="f-goal">Website, sản phẩm và ngành hàng</label><input id="f-goal" name="goal" type="text"><span class="ln"></span></div>
           </div>
           <div class="row"><button class="btn" type="submit">Gửi yêu cầu <span class="ar"><svg class="ic"><use href="#i-arrow"/></svg><svg class="ic"><use href="#i-arrow"/></svg></span></button><small>NEXA liên hệ lại trong 24 giờ làm việc.</small></div>
         </form>
@@ -1439,14 +1397,17 @@ ul,ol{margin:0;padding:0;list-style:none}
 <footer class="dk ftr">
   <div class="wrap">
     <div class="f-cols">
-      <div><span class="brand"><img src="assets/logo.png" alt="NEXA" width="141" height="34"><span>SOLUTION</span></span><p class="tagl">Growth Powered by Media &amp; Technology</p>
-        <p class="co">CÔNG TY TNHH NEXA SOLUTION</p>
-        <ul><li><svg class="ic"><use href="#i-receipt"/></svg>Mã số thuế: 0111546436</li><li><svg class="ic"><use href="#i-pin"/></svg>Số 2B ngõ 68 phố Quan Nhân, Phường Thanh Xuân, Thành phố Hà Nội, Việt Nam</li></ul></div>
-      <div><h4>Dịch vụ SEO, AIO, GEO</h4><a href="#loi-ich">Lợi ích</a><a href="#cach-lam">Ba lớp tối ưu</a><a href="#giai-phap">Giải pháp</a><a href="#bang-gia">Bảng giá</a><a href="#checklist">Checklist hạng mục</a></div>
-      <div><h4>Về NEXA</h4><a href="../nexa-solution/">Trang chủ NEXA</a><a href="../nexa-b2b/">Doanh nghiệp B2B</a><a href="../nexa-trien-lam/">Sự kiện triển lãm</a><a href="#faq">Hỏi đáp</a><a href="#lien-he">Đặt lịch tư vấn</a></div>
-      <div><h4>Liên hệ trực tiếp</h4><ul><li><svg class="ic"><use href="#i-phone"/></svg><span>Điện thoại: <a href="tel:0856218686">0856 218 686</a></span></li><li><svg class="ic"><use href="#i-mail"/></svg><span>Email: <a href="mailto:nexa.solutionvn@gmail.com">nexa.solutionvn@gmail.com</a></span></li></ul>
-        <h4 style="margin-top:26px">Kết nối với NEXA</h4>
-        <div class="soc"><a href="#" aria-label="Facebook của NEXA"><svg class="ic"><use href="#i-fb"/></svg></a><a href="#" aria-label="Zalo của NEXA"><span class="zl">Zalo</span></a><a href="#" aria-label="YouTube của NEXA"><svg class="ic"><use href="#i-yt"/></svg></a><a href="#" aria-label="TikTok của NEXA"><svg class="ic"><use href="#i-music"/></svg></a><a href="#" aria-label="LinkedIn của NEXA"><svg class="ic"><use href="#i-in"/></svg></a></div></div>
+      <div><span class="brand"><img src="assets/logo.png" alt="NEXA" width="141" height="34"><span>SOLUTION</span></span><p class="tagl">Growth Powered by Media &amp; Technology</p></div>
+      <div><h4>NEXA Marketing</h4><a href="../nexa-solution/#nang-luc">Nội dung web</a><a href="../nexa-solution/#nang-luc">Content social</a><a href="#top">SEO</a><a href="../nexa-solution/#nang-luc">Facebook Ads</a><a href="../nexa-solution/#nang-luc">Google Ads</a><a href="../nexa-solution/#nang-luc">TikTok Ads</a><a href="../nexa-solution/#nang-luc">Thương mại điện tử</a></div>
+      <div><h4>NEXA Branding</h4><a href="../nexa-solution/#nang-luc">Video doanh nghiệp</a><a href="../nexa-solution/#nang-luc">Video marketing</a><a href="../nexa-solution/#nang-luc">Ảnh sản phẩm</a><a href="../nexa-solution/#nang-luc">Logo &amp; bộ nhận diện</a><a href="../nexa-solution/#nang-luc">Hồ sơ năng lực</a><a href="../nexa-solution/#nang-luc">PR &amp; Booking</a></div>
+      <div><h4>NEXA Tech</h4><a href="../nexa-solution/#nang-luc">Thiết kế website</a><a href="../nexa-solution/#nang-luc">Landing Page</a><a href="../nexa-solution/#nang-luc">AI Agent</a><a href="../nexa-solution/#nang-luc">Martech Platform</a></div>
+      <div><h4>Giải pháp</h4><a href="../nexa-trien-lam/">Sự kiện triển lãm</a><a href="../nexa-b2b/">Doanh nghiệp B2B</a><a href="../nexa-b2b/#sol-1">B2B · Build</a><a href="../nexa-b2b/#sol-2">B2B · Reach</a><a href="../nexa-b2b/#sol-3">B2B · Grow</a></div>
+      <div><h4>Về NEXA</h4><a href="../nexa-solution/#ve-nexa">Ngành nghề NEXA</a><a href="#quy-trinh">Quy trình</a><a href="../nexa-solution/#du-an">Dự án</a><a href="#lien-he">Đặt lịch tư vấn</a><a href="#top">Về đầu trang</a></div>
+    </div>
+    <div class="f-info">
+      <div><h4>Thông tin công ty</h4><p class="co">CÔNG TY TNHH NEXA SOLUTION</p><ul><li><svg class="ic"><use href="#i-receipt"/></svg>Mã số thuế: 0111546436</li><li><svg class="ic"><use href="#i-pin"/></svg>Số 2B ngõ 68 phố Quan Nhân, Phường Thanh Xuân, Thành phố Hà Nội, Việt Nam</li></ul></div>
+      <div><h4>Liên hệ trực tiếp</h4><ul><li><svg class="ic"><use href="#i-phone"/></svg><span>Điện thoại: <b><a href="tel:0856218686">0856 218 686</a></b></span></li><li><svg class="ic"><use href="#i-mail"/></svg><span>Email: <b><a href="mailto:nexa.solutionvn@gmail.com">nexa.solutionvn@gmail.com</a></b></span></li></ul></div>
+      <div><h4>Kết nối với NEXA</h4><div class="soc"><a href="#" aria-label="Facebook của NEXA"><svg class="ic"><use href="#i-fb"/></svg></a><a href="#" aria-label="Zalo của NEXA"><span class="zl">Zalo</span></a><a href="#" aria-label="YouTube của NEXA"><svg class="ic"><use href="#i-yt"/></svg></a><a href="#" aria-label="TikTok của NEXA"><svg class="ic"><use href="#i-music"/></svg></a><a href="#" aria-label="LinkedIn của NEXA"><svg class="ic"><use href="#i-in"/></svg></a></div><a class="btn" href="#lien-he">Đặt lịch tư vấn <span class="ar"><svg class="ic"><use href="#i-arrow"/></svg><svg class="ic"><use href="#i-arrow"/></svg></span></a></div>
     </div>
     <div class="f-bot"><span>© 2026 NEXA Solution. Marketing · Branding · Tech</span><a class="lk" href="#top">Về đầu trang <svg class="ic"><use href="#i-upr"/></svg></a></div>
     <div class="giant" aria-hidden="true"><span>N</span><span>E</span><img src="assets/x.webp" alt=""><span>A</span></div>
@@ -1499,9 +1460,9 @@ $$('.sp').forEach(el=>{let i=0;const walk=n=>{[...n.childNodes].forEach(c=>{if(c
 
 /* ---------- reveal on view ---------- */
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{rootMargin:'0px 0px -8% 0px',threshold:.1});
-$$('.sp,[data-f]').forEach(el=>{if(!el.closest('#hero'))io.observe(el)});
-requestAnimationFrame(()=>setTimeout(()=>$$('#hero .sp,#hero [data-f]').forEach(el=>{if(!el.closest('.h-st'))el.classList.add('in')}),120));
-$$('#hero .h-st [data-f]').forEach(el=>io.observe(el));
+$$('.sp,[data-f]').forEach(el=>{if(!el.closest('#top'))io.observe(el)});
+requestAnimationFrame(()=>setTimeout(()=>$$('#top .sp,#top [data-f]').forEach(el=>{if(!el.closest('.h-st'))el.classList.add('in')}),120));
+$$('#top .h-st [data-f]').forEach(el=>io.observe(el));
 /* blocks that animate on their own once they are well inside the screen */
 const once=(el,fn,th=.25,rm='0px 0px -10% 0px')=>{if(!el)return;const o=new IntersectionObserver(es=>{if(es[0].isIntersecting){o.disconnect();fn(el)}},{threshold:th,rootMargin:rm});o.observe(el)};
 
@@ -1551,10 +1512,7 @@ function closeAll(){closeMega();closeLang();closeMenu();closePal()}
 /* search: sections of this page + main-site services + solutions */
 const MAIN='../nexa-solution/',HERE='Trên trang này';
 const IDX=[
- ['Lợi ích của SEO, AIO, GEO',HERE,'#loi-ich'],['Dấu hiệu website cần xem lại SEO',HERE,'#dau-hieu'],['Ba lớp tối ưu SEO · AIO · GEO',HERE+' · Cách làm','#cach-lam'],
- ['Research',HERE+' · Giải pháp','#sl-1'],['Content SEO, AIO, GEO',HERE+' · Giải pháp','#sl-2'],['Kỹ thuật On Page',HERE+' · Giải pháp','#sl-3'],['Kỹ thuật Off Page',HERE+' · Giải pháp','#sl-4'],
- ['So sánh với SEO từ khóa đơn thuần',HERE,'#so-sanh'],['Bảng giá ba gói',HERE,'#bang-gia','gói 1 gói 2 gói 3 giá'],['Checklist hạng mục từng gói',HERE,'#checklist'],['Tư vấn chọn gói',HERE,'#tu-van'],
- ['Mức cam kết page và responses',HERE,'#cam-ket'],['Quy trình năm bước',HERE,'#quy-trinh'],['Vì sao chọn NEXA',HERE,'#vi-sao'],['Hỏi đáp',HERE,'#faq'],['Nhận tư vấn SEO / AIO / GEO',HERE,'#lien-he'],
+ ['Lợi ích',HERE,'#co-hoi','Khách hàng B2B giờ tìm nhà cung cấp bằng Google và bằng cách hỏi AI'],['Nhận biết',HERE,'#dau-hieu','Website của bạn có đang gặp những dấu hiệu này?'],['Cách làm',HERE,'#ba-lop','Ba lớp tối ưu trên cùng một nền tảng nội dung'],['Research',HERE+' · Giải pháp','#sl-1'],['Content SEO, AIO, GEO',HERE+' · Giải pháp','#sl-2'],['Kỹ thuật On Page',HERE+' · Giải pháp','#sl-3'],['Kỹ thuật Off Page',HERE+' · Giải pháp','#sl-4'],['So sánh',HERE,'#so-sanh','SEO, AIO, GEO trọn gói khác gì SEO từ khóa đơn thuần?'],['Bảng giá',HERE,'#bang-gia','Ba gói dịch vụ SEO, AIO, GEO gói 1 gói 2 gói 3'],['Checklist',HERE,'#checklist','Hạng mục triển khai trong từng gói'],['Tư vấn cùng NEXA',HERE,'#tu-van','Chưa biết chọn gói nào? Hãy trao đổi cùng chuyên viên'],['Cam kết',HERE,'#cam-ket','Mức cam kết rõ ràng, nâng dần theo từng gói'],['Quy trình',HERE,'#quy-trinh','Năm bước từ tư vấn đến theo dõi cam kết'],['Vì sao NEXA',HERE,'#vi-sao','Media và công nghệ trong cùng một đội'],['Câu hỏi thường gặp',HERE,'#faq','Những điều doanh nghiệp hay hỏi về dịch vụ SEO'],['Nhận tư vấn SEO / AIO / GEO',HERE,'#lien-he','Cho NEXA biết website và ngành hàng của bạn'],
  ...$$('#m-dv .col').flatMap(c=>{const g=$('.mh b',c).textContent;return $$('.mi',c).filter(a=>a.getAttribute('href')!=='#top').map(a=>[$('b',a).textContent,g,a.getAttribute('href'),$('small',a).textContent])}),
  ['Sự kiện triển lãm','Giải pháp','../nexa-trien-lam/'],['Doanh nghiệp B2B','Giải pháp','../nexa-b2b/'],['Ngành nghề NEXA','Về NEXA',MAIN+'#ve-nexa'],['Quy trình NEXA','Trang chủ NEXA',MAIN+'#quy-trinh'],['Dự án tiêu biểu','Trang chủ NEXA',MAIN+'#du-an']];
 const pal=$('#pal'),pq=$('#pal-q'),pl=$('#pal-list');let sel=0,res=[];
@@ -1576,10 +1534,10 @@ const dsEnd=()=>ds.classList.toggle('end',ds.scrollLeft+ds.clientWidth>=ds.scrol
 ds.addEventListener('scroll',dsEnd,{passive:true});
 const setDock=k=>{dl.forEach(a=>a.classList.toggle('on',+a.dataset.k===k));const a=dl.find(x=>+x.dataset.k===k);if(a){pill.style.left=a.offsetLeft+'px';pill.style.width=a.offsetWidth+'px';pill.style.opacity=1;
     if(ds.scrollWidth>ds.clientWidth)ds.scrollTo({left:a.offsetLeft-(ds.clientWidth-a.offsetWidth)/2,behavior:RM?'auto':'smooth'})}else pill.style.opacity=0};
-const dmap={'loi-ich':0,'dau-hieu':0,'cach-lam':1,'giai-phap':2,'so-sanh':2,'bang-gia':3,'checklist':4,'tu-van':4,'cam-ket':4,'quy-trinh':5,'vi-sao':5,'faq':6};
+const dmap={'co-hoi':0,'dau-hieu':0,'ba-lop':1,'giai-phap':2,'so-sanh':2,'bang-gia':3,'checklist':4,'tu-van':4,'cam-ket':4,'quy-trinh':5,'vi-sao':5,'khach-hang':5,'faq':6};
 const dio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){const k=dmap[e.target.id];setDock(k==null?-1:k)}}),{rootMargin:'-50% 0px -50% 0px'});
-['hero','loi-ich','dau-hieu','cach-lam','giai-phap','so-sanh','bang-gia','checklist','tu-van','cam-ket','quy-trinh','vi-sao','faq','lien-he'].forEach(id=>{const el=$('#'+id);el&&dio.observe(el)});
-const heroEl=$('#hero'),ctEl=$('#lien-he');
+['top','co-hoi','dau-hieu','ba-lop','giai-phap','so-sanh','bang-gia','checklist','tu-van','cam-ket','quy-trinh','vi-sao','khach-hang','faq','lien-he'].forEach(id=>{const el=$('#'+id);el&&dio.observe(el)});
+const heroEl=$('#top'),ctEl=$('#lien-he');
 const dockCheck=()=>{const y=scrollY,end=ctEl.getBoundingClientRect().top+y-innerHeight*.55;dock.classList.toggle('show',y>heroEl.offsetHeight*.72&&y<end)};
 addEventListener('scroll',dockCheck,{passive:true});addEventListener('resize',()=>{dockCheck();const a=$('a.on',dock);a&&setDock(+a.dataset.k)});
 
@@ -1599,13 +1557,10 @@ once($('#bn-g'),g=>{const r=g.getBoundingClientRect(),cx=r.left+r.width/2,cy=r.t
 const spot=(el,e)=>{const b=el.getBoundingClientRect();el.style.setProperty('--mx',(e.clientX-b.left)+'px');el.style.setProperty('--my',(e.clientY-b.top)+'px')};
 if(HOVER)$$('.bn,.pc3').forEach(el=>el.addEventListener('pointermove',e=>spot(el,e)));
 
-/* ---------- C · signs: self-check ---------- */
-const sgl=$('#sg-l'),sgMsg=$('#sg-msg'),sgB=$$('.sg-i',sgl);
-sgB.forEach(b=>b.addEventListener('click',()=>{b.setAttribute('aria-pressed',b.getAttribute('aria-pressed')!=='true');const n=sgB.filter(x=>x.getAttribute('aria-pressed')==='true').length;
-  sgMsg.innerHTML=n?`Bạn đang gặp <b>${n}/${sgB.length}</b> dấu hiệu. Đã đến lúc xem lại nền tảng SEO, AIO và GEO.`:'Chọn những dấu hiệu website của bạn đang gặp.'}));
-once(sgl,el=>{el.classList.add('in');setTimeout(()=>el.classList.add('ok'),1500)},.2);
+/* ---------- C · signs: rows skid in ---------- */
+once($('#sg-l'),el=>el.classList.add('in'),.2);
 
-/* ---------- G · pricing: odometer digits, tilt, plan buttons fill the form ---------- */
+/* ---------- G · pricing: odometer digits, tilt ---------- */
 if(FX)$$('.price .v').forEach(v=>{let k=0;const val=v.dataset.v;v.textContent='';v.classList.add('roll');
   [...val].forEach(ch=>{if(/\d/.test(ch)){const o=d.createElement('span');o.className='od';o.setAttribute('aria-hidden','true');const c=d.createElement('span');c.className='od-c';c.style.setProperty('--v',ch);c.style.setProperty('--k',k++);
       for(let r=0;r<2;r++)for(let n=0;n<10;n++){const s=d.createElement('span');s.textContent=n;c.appendChild(s)}o.appendChild(c);v.appendChild(o)}
@@ -1613,8 +1568,6 @@ if(FX)$$('.price .v').forEach(v=>{let k=0;const val=v.dataset.v;v.textContent=''
 once($('#pr-g'),g=>{g.classList.add('in');if(FX)setTimeout(()=>$$('.price .v',g).forEach(v=>{v.textContent=v.dataset.v;v.classList.remove('roll')}),2900)},.2);
 if(HOVER&&FX)$$('.pc3').forEach(c=>{c.addEventListener('pointermove',e=>{const b=c.getBoundingClientRect(),x=(e.clientX-b.left)/b.width-.5,y=(e.clientY-b.top)/b.height-.5;c.style.setProperty('--ry',(x*7).toFixed(2)+'deg');c.style.setProperty('--rx',(-y*6).toFixed(2)+'deg')});
   c.addEventListener('pointerleave',()=>{c.style.setProperty('--ry','0deg');c.style.setProperty('--rx','0deg')})});
-const fPkg=$('#f-pkg'),fBox=$('#form-box');
-$$('[data-pkg]').forEach(a=>{if(a.tagName!=='A')return;a.addEventListener('click',()=>{fPkg.value=a.dataset.pkg;fBox.classList.remove('pick');void fBox.offsetWidth;fBox.classList.add('pick')})});
 
 /* ---------- F · compare rows ---------- */
 const rio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');rio.unobserve(e.target)}}),{rootMargin:'0px 0px -14% 0px',threshold:.6});
@@ -1629,30 +1582,24 @@ const tabs=$$('.ck-tabs button');
 const setPkg=n=>{ckt.dataset.pkg=n;tabs.forEach(t=>t.setAttribute('aria-selected',t.dataset.pkg===n));ckt.classList.remove('sw');void ckt.offsetWidth;ckt.classList.add('sw')};
 tabs.forEach((t,i)=>{t.addEventListener('click',()=>setPkg(t.dataset.pkg));t.addEventListener('keydown',e=>{if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;e.preventDefault();const n=tabs[(i+(e.key==='ArrowRight'?1:2))%3];n.focus();setPkg(n.dataset.pkg)})});
 
-/* ---------- I · consult: the question is typed, sent and answered ---------- */
-const chatRun=()=>{const tx=$('#chat-tx'),inp=$('#chat-in'),mu=$('#m-u'),mt_=$('#m-t'),mn=$('#m-n'),Q=mu.textContent,PH=tx.textContent;
-  if(!FX)return;
-  const words=mn.textContent.split(' ');mn.innerHTML=words.map(w=>`<span style="opacity:0">${w}</span>`).join(' ');const ws=$$('span',mn);
-  gsap.set([mu,mn],{autoAlpha:0});gsap.set(mn,{autoAlpha:0});
-  const o={n:0},tl=gsap.timeline({delay:.3});
-  tl.add(()=>tx.classList.add('tx'))
-    .fromTo(o,{n:0},{n:Q.length,duration:Q.length*.045,ease:'none',onUpdate:()=>tx.textContent=Q.slice(0,Math.round(o.n))})
-    .add(()=>inp.classList.add('go'),'+=.15')
-    .add(()=>{inp.classList.remove('go');tx.classList.remove('tx');tx.textContent=PH},'+=.25')
-    .fromTo(mu,{autoAlpha:0,scale:.6,y:30},{autoAlpha:1,scale:1,y:0,duration:.55,ease:'back.out(1.7)'},'<')
+/* ---------- I · consult: photo settles, the question pops, dots, the answer streams ---------- */
+once($('#cs-ph'),el=>el.classList.add('in'),.25);
+const chatRun=()=>{if(!FX)return;const mu=$('#m-u'),mt_=$('#m-t'),mn=$('#m-n'),ws=$$('span',mn);
+  gsap.timeline({delay:.35})
+    .fromTo(mu,{autoAlpha:0,scale:.6,y:30},{autoAlpha:1,scale:1,y:0,duration:.55,ease:'back.out(1.7)'})
     .add(()=>{mt_.style.display='flex'},'+=.2')
     .fromTo(mt_,{autoAlpha:0,scale:.7},{autoAlpha:1,scale:1,duration:.3,ease:'back.out(2)'},'<')
     .add(()=>{mt_.style.display='none'},'+=1.1')
     .fromTo(mn,{autoAlpha:0,scale:.85,y:16},{autoAlpha:1,scale:1,y:0,duration:.5,ease:'back.out(1.5)'})
     .to(ws,{opacity:1,duration:.25,stagger:.035,ease:'none'},'<.1')};
-if(FX){gsap.set(['#m-u','#m-n'],{autoAlpha:0})}
+if(FX){const mn=$('#m-n');mn.innerHTML=mn.textContent.split(' ').map(w=>`<span style="opacity:0">${w}</span>`).join(' ');gsap.set(['#m-u','#m-n'],{autoAlpha:0})}
 once($('#chat'),chatRun,.45);
 
 /* ---------- L · why NEXA bento ---------- */
 once($('#wy-g'),g=>g.classList.add('in'),.2);
 
 /* ---------- click handlers delegated to the current scene ---------- */
-const lys=$('#cach-lam'),lcs=$$('.lc'),plates=$$('.plate'),slS=$$('.sl'),slName=$('#sl-name'),slBars=$$('.sl-hud span i'),psW=$('#ps-w'),pss=$$('.ps'),pnd=$$('.ps-nd');
+const lys=$('#ba-lop'),lcs=$$('.lc'),plates=$$('.plate'),slS=$$('.sl'),slName=$('#sl-name'),slBars=$$('.sl-hud span i'),psW=$('#ps-w'),pss=$$('.ps'),pnd=$$('.ps-nd');
 const setLc=i=>lcs.forEach((c,j)=>c.classList.toggle('on',j===i));
 let slI=-1;const setSl=i=>{if(i===slI)return;slI=i;slS.forEach((s,j)=>s.classList.toggle('on',j===i));slBars.forEach((b,j)=>b.classList.toggle('on',j===i));slName.textContent=$('h3',slS[i]).textContent};
 setSl(0);
@@ -1686,11 +1633,10 @@ htl.add(()=>{ai.classList.add('typing');ai.classList.remove('lit')})
   .fromTo(srcs,{autoAlpha:0,y:6},{autoAlpha:1,y:0,duration:.35},'-=.1')
   .fromTo(bd,{autoAlpha:0,y:34,scale:.86},{autoAlpha:1,y:0,scale:1,duration:.8,ease:'back.out(1.8)'},'+=.1');
 setTimeout(()=>htl.play(0),700);
-$('#ai-rp').addEventListener('click',()=>htl.play(0));
 if(HOVER){heroEl.addEventListener('pointermove',e=>{const x=e.clientX/innerWidth-.5,y=e.clientY/innerHeight-.5;gsap.to(ai,{rotationY:x*9,rotationX:-y*7,duration:.9,ease:'power3.out',transformPerspective:1300})});
   heroEl.addEventListener('pointerleave',()=>gsap.to(ai,{rotationY:0,rotationX:0,duration:1,ease:'power3.out'}))}
 /* the card drifts up a little faster than the page as the hero leaves */
-gsap.to(ai,{y:()=>-innerHeight*.09,ease:'none',scrollTrigger:{trigger:'#hero',start:'top top',end:'bottom top',scrub:true,invalidateOnRefresh:true}});
+gsap.to(ai,{y:()=>-innerHeight*.09,ease:'none',scrollTrigger:{trigger:'#top',start:'top top',end:'bottom top',scrub:true,invalidateOnRefresh:true}});
 
 const mm=gsap.matchMedia();
 mm.add({isD:'(min-width:900px)',isM:'(max-width:899px)',tall:'(min-height:700px)'},ctx=>{
